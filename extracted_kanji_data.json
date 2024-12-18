@@ -1,7034 +1,1511 @@
 [
-  {
-    "kanji": "百",
-    "reading": "ひゃく"
-  },
-  {
-    "kanji": "寿者",
-    "reading": "じゅしゃ"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "示唆",
-    "reading": "しさ"
-  },
-  {
-    "kanji": "加齢",
-    "reading": "かれい"
-  },
-  {
-    "kanji": "炎症",
-    "reading": "えんしょう"
-  },
-  {
-    "kanji": "市民",
-    "reading": "しみん"
-  },
-  {
-    "kanji": "公開",
-    "reading": "こうかい"
-  },
-  {
-    "kanji": "講座",
-    "reading": "こうざ"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "2000",
-    "reading": "2000"
-  },
-  {
-    "kanji": "仙台",
-    "reading": "せんだい"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "元年",
-    "reading": "がんねん"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "制度",
-    "reading": "せいど"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "標準化",
-    "reading": "ひょうじゅんか"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "対象",
-    "reading": "たいしょう"
-  },
-  {
-    "kanji": "外",
-    "reading": "がい"
-  },
-  {
-    "kanji": "利用者",
-    "reading": "りようしゃ"
-  },
-  {
-    "kanji": "支援",
-    "reading": "しえん"
-  },
-  {
-    "kanji": "5",
-    "reading": "5"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "総合的",
-    "reading": "そうごうてき"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "知識",
-    "reading": "ちしき"
-  },
-  {
-    "kanji": "利用",
-    "reading": "りよう"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "主治医",
-    "reading": "しゅじい"
-  },
-  {
-    "kanji": "意見書",
-    "reading": "いけんしょ"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "認定",
-    "reading": "にんてい"
-  },
-  {
-    "kanji": "施設",
-    "reading": "しせつ"
-  },
-  {
-    "kanji": "療養型",
-    "reading": "りょうようがた"
-  },
-  {
-    "kanji": "病床群",
-    "reading": "びょうしょうぐん"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "保健",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "施設",
-    "reading": "しせつ"
-  },
-  {
-    "kanji": "多施設",
-    "reading": "たしせつ"
-  },
-  {
-    "kanji": "共同",
-    "reading": "きょうどう"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "在宅",
-    "reading": "ざいたく"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "看護",
-    "reading": "かんご"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "下",
-    "reading": "か"
-  },
-  {
-    "kanji": "有効",
-    "reading": "ゆうこう"
-  },
-  {
-    "kanji": "活用",
-    "reading": "かつよう"
-  },
-  {
-    "kanji": "連携",
-    "reading": "れんけい"
-  },
-  {
-    "kanji": "方",
-    "reading": "かた"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "在宅",
-    "reading": "ざいたく"
-  },
-  {
-    "kanji": "看護",
-    "reading": "かんご"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "連携",
-    "reading": "れんけい"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "訪問",
-    "reading": "ほうもん"
-  },
-  {
-    "kanji": "看護",
-    "reading": "かんご"
-  },
-  {
-    "kanji": "方",
-    "reading": "かた"
-  },
-  {
-    "kanji": "3",
-    "reading": "3"
-  },
-  {
-    "kanji": "Aging",
-    "reading": "Aging"
-  },
-  {
-    "kanji": "Science",
-    "reading": "Science"
-  },
-  {
-    "kanji": "Forum",
-    "reading": "Forum"
-  },
-  {
-    "kanji": "百",
-    "reading": "ひゃく"
-  },
-  {
-    "kanji": "寿者",
-    "reading": "じゅしゃ"
-  },
-  {
-    "kanji": "長",
-    "reading": "ちょう"
-  },
-  {
-    "kanji": "寿老人",
-    "reading": "じゅろうじん"
-  },
-  {
-    "kanji": "学",
-    "reading": "まな"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "長寿",
-    "reading": "ちょうじゅ"
-  },
-  {
-    "kanji": "地域",
-    "reading": "ちいき"
-  },
-  {
-    "kanji": "沖縄",
-    "reading": "おきなわ"
-  },
-  {
-    "kanji": "風土",
-    "reading": "ふうど"
-  },
-  {
-    "kanji": "生活",
-    "reading": "せいかつ"
-  },
-  {
-    "kanji": "習慣",
-    "reading": "しゅうかん"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "長寿",
-    "reading": "ちょうじゅ"
-  },
-  {
-    "kanji": "関連",
-    "reading": "かんれん"
-  },
-  {
-    "kanji": "遺伝子",
-    "reading": "いでんし"
-  },
-  {
-    "kanji": "3",
-    "reading": "3"
-  },
-  {
-    "kanji": "病理学",
-    "reading": "びょうりがく"
-  },
-  {
-    "kanji": "長",
-    "reading": "ちょう"
-  },
-  {
-    "kanji": "寿老人",
-    "reading": "じゅろうじん"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "長寿者",
-    "reading": "ちょうじゅしゃ"
-  },
-  {
-    "kanji": "生理学的",
-    "reading": "せいりがくてき"
-  },
-  {
-    "kanji": "条件",
-    "reading": "じょうけん"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "高脂血症",
-    "reading": "こうしけつしょう"
-  },
-  {
-    "kanji": "NO",
-    "reading": "NO"
-  },
-  {
-    "kanji": "依存性",
-    "reading": "いぞんせい"
-  },
-  {
-    "kanji": "血小板",
-    "reading": "けっしょうばん"
-  },
-  {
-    "kanji": "凝集",
-    "reading": "ぎょうしゅう"
-  },
-  {
-    "kanji": "抑制",
-    "reading": "よくせい"
-  },
-  {
-    "kanji": "異常",
-    "reading": "いじょう"
-  },
-  {
-    "kanji": "痴呆性",
-    "reading": "ちほうせい"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "精神",
-    "reading": "せいしん"
-  },
-  {
-    "kanji": "身体",
-    "reading": "しんたい"
-  },
-  {
-    "kanji": "状況",
-    "reading": "じょうきょう"
-  },
-  {
-    "kanji": "施設",
-    "reading": "しせつ"
-  },
-  {
-    "kanji": "入所",
-    "reading": "にゅうしょ"
-  },
-  {
-    "kanji": "後",
-    "reading": "ご"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "年間",
-    "reading": "ねんかん"
-  },
-  {
-    "kanji": "変化",
-    "reading": "へんか"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "表",
-    "reading": "ひょう"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "Parkinson",
-    "reading": "Parkinson"
-  },
-  {
-    "kanji": "病",
-    "reading": "びょう"
-  },
-  {
-    "kanji": "記憶",
-    "reading": "きおく"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "神経",
-    "reading": "しんけい"
-  },
-  {
-    "kanji": "心理学的",
-    "reading": "しんりがくてき"
-  },
-  {
-    "kanji": "検査",
-    "reading": "けんさ"
-  },
-  {
-    "kanji": "脳",
-    "reading": "のう"
-  },
-  {
-    "kanji": "血流",
-    "reading": "けつりゅう"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "音楽",
-    "reading": "おんがく"
-  },
-  {
-    "kanji": "療法",
-    "reading": "りょうほう"
-  },
-  {
-    "kanji": "細胞",
-    "reading": "さいぼう"
-  },
-  {
-    "kanji": "活性",
-    "reading": "かっせい"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "細胞数",
-    "reading": "さいぼうすう"
-  },
-  {
-    "kanji": "変化",
-    "reading": "へんか"
-  },
-  {
-    "kanji": "特養",
-    "reading": "とくよう"
-  },
-  {
-    "kanji": "入所者",
-    "reading": "にゅうしょしゃ"
-  },
-  {
-    "kanji": "QOL",
-    "reading": "QOL"
-  },
-  {
-    "kanji": "向上",
-    "reading": "こうじょう"
-  },
-  {
-    "kanji": "目的",
-    "reading": "もくてき"
-  },
-  {
-    "kanji": "鍼灸",
-    "reading": "しんきゅう"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "試",
-    "reading": "こころ"
-  },
-  {
-    "kanji": "医学生",
-    "reading": "いがくせい"
-  },
-  {
-    "kanji": "対",
-    "reading": "たい"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "終末期",
-    "reading": "しゅうまつき"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "意識",
-    "reading": "いしき"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "質的",
-    "reading": "しつてき"
-  },
-  {
-    "kanji": "分析法",
-    "reading": "ぶんせきほう"
-  },
-  {
-    "kanji": "用",
-    "reading": "もち"
-  },
-  {
-    "kanji": "意識",
-    "reading": "いしき"
-  },
-  {
-    "kanji": "構造",
-    "reading": "こうぞう"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "10",
-    "reading": "10"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "東北",
-    "reading": "とうほく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "11",
-    "reading": "11"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "東北",
-    "reading": "とうほく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "10",
-    "reading": "10"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "北陸",
-    "reading": "ほくりく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "11",
-    "reading": "11"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "北陸",
-    "reading": "ほくりく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "22",
-    "reading": "22"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "学会",
-    "reading": "がっかい"
-  },
-  {
-    "kanji": "総会",
-    "reading": "そうかい"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "43",
-    "reading": "43"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "学術",
-    "reading": "がくじゅつ"
-  },
-  {
-    "kanji": "集会",
-    "reading": "しゅうかい"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "抄録集",
-    "reading": "しょうろくしゅう"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "用語",
-    "reading": "ようご"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "大動脈",
-    "reading": "だいどうみゃく"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "腹部",
-    "reading": "ふくぶ"
-  },
-  {
-    "kanji": "大",
-    "reading": "だい"
-  },
-  {
-    "kanji": "動脈瘤",
-    "reading": "どうみゃくりゅう"
-  },
-  {
-    "kanji": "病態",
-    "reading": "びょうたい"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  },
-  {
-    "kanji": "難聴",
-    "reading": "なんちょう"
-  },
-  {
-    "kanji": "分子",
-    "reading": "ぶんし"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "42",
-    "reading": "42"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "学術",
-    "reading": "がくじゅつ"
-  },
-  {
-    "kanji": "集会",
-    "reading": "しゅうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "感染性心",
-    "reading": "かんせんせいしん"
-  },
-  {
-    "kanji": "内",
-    "reading": "ない"
-  },
-  {
-    "kanji": "膜炎",
-    "reading": "まくえん"
-  },
-  {
-    "kanji": "動脈",
-    "reading": "どうみゃく"
-  },
-  {
-    "kanji": "硬化",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "新",
-    "reading": "あたら"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "遺伝子",
-    "reading": "いでんし"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "可能性",
-    "reading": "かのうせい"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "経口",
-    "reading": "けいこう"
-  },
-  {
-    "kanji": "血糖",
-    "reading": "けっとう"
-  },
-  {
-    "kanji": "降下薬",
-    "reading": "こうかやく"
-  },
-  {
-    "kanji": "療法",
-    "reading": "りょうほう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "関連",
-    "reading": "かんれん"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "臨床",
-    "reading": "りんしょう"
-  },
-  {
-    "kanji": "問題点",
-    "reading": "もんだいてん"
-  },
-  {
-    "kanji": "動脈",
-    "reading": "どうみゃく"
-  },
-  {
-    "kanji": "硬化性",
-    "reading": "こうかせい"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "予防",
-    "reading": "よぼう"
-  },
-  {
-    "kanji": "頸動脈",
-    "reading": "けいどうみゃく"
-  },
-  {
-    "kanji": "硬化",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "臨床",
-    "reading": "りんしょう"
-  },
-  {
-    "kanji": "若手",
-    "reading": "わかて"
-  },
-  {
-    "kanji": "企画",
-    "reading": "きかく"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "呼吸器",
-    "reading": "こきゅうき"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "対",
-    "reading": "たい"
-  },
-  {
-    "kanji": "新",
-    "reading": "しん"
-  },
-  {
-    "kanji": "戦略",
-    "reading": "せんりゃく"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "慢性",
-    "reading": "まんせい"
-  },
-  {
-    "kanji": "閉塞性",
-    "reading": "へいそくせい"
-  },
-  {
-    "kanji": "肺",
-    "reading": "はい"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "総合的",
-    "reading": "そうごうてき"
-  },
-  {
-    "kanji": "内科",
-    "reading": "ないか"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "包括的",
-    "reading": "ほうかつてき"
-  },
-  {
-    "kanji": "呼吸",
-    "reading": "こきゅう"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "課題",
-    "reading": "かだい"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "多",
-    "reading": "おお"
-  },
-  {
-    "kanji": "市中",
-    "reading": "しちゅう"
-  },
-  {
-    "kanji": "肺炎",
-    "reading": "はいえん"
-  },
-  {
-    "kanji": "肺結核",
-    "reading": "はいけっかく"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "進歩",
-    "reading": "しんぽ"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "肺癌",
-    "reading": "はいがん"
-  },
-  {
-    "kanji": "内科的",
-    "reading": "ないかてき"
-  },
-  {
-    "kanji": "新",
-    "reading": "あたら"
-  },
-  {
-    "kanji": "治療法",
-    "reading": "ちりょうほう"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "豊",
-    "reading": "ゆた"
-  },
-  {
-    "kanji": "高齢化",
-    "reading": "こうれいか"
-  },
-  {
-    "kanji": "社会",
-    "reading": "しゃかい"
-  },
-  {
-    "kanji": "実現",
-    "reading": "じつげん"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "機器",
-    "reading": "きき"
-  },
-  {
-    "kanji": "住宅",
-    "reading": "じゅうたく"
-  },
-  {
-    "kanji": "方",
-    "reading": "かた"
-  },
-  {
-    "kanji": "介護用",
-    "reading": "かいごよう"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "将来",
-    "reading": "しょうらい"
-  },
-  {
-    "kanji": "日常",
-    "reading": "にちじょう"
-  },
-  {
-    "kanji": "生活",
-    "reading": "せいかつ"
-  },
-  {
-    "kanji": "活動",
-    "reading": "かつどう"
-  },
-  {
-    "kanji": "ADL",
-    "reading": "ADL"
-  },
-  {
-    "kanji": "支援",
-    "reading": "しえん"
-  },
-  {
-    "kanji": "水沢",
-    "reading": "みずさわ"
-  },
-  {
-    "kanji": "独居",
-    "reading": "どっきょ"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "施設",
-    "reading": "しせつ"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "機器",
-    "reading": "きき"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "将来",
-    "reading": "しょうらい"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "活動的",
-    "reading": "かつどうてき"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "地域",
-    "reading": "ちいき"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "規定",
-    "reading": "きてい"
-  },
-  {
-    "kanji": "要因",
-    "reading": "よういん"
-  },
-  {
-    "kanji": "学際的",
-    "reading": "がくさいてき"
-  },
-  {
-    "kanji": "縦断",
-    "reading": "じゅうだん"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "TMIG",
-    "reading": "TMIG"
-  },
-  {
-    "kanji": "LISA",
-    "reading": "LISA"
-  },
-  {
-    "kanji": "活動的",
-    "reading": "かつどうてき"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "実態",
-    "reading": "じったい"
-  },
-  {
-    "kanji": "規定",
-    "reading": "きてい"
-  },
-  {
-    "kanji": "要因",
-    "reading": "よういん"
-  },
-  {
-    "kanji": "活動的",
-    "reading": "かつどうてき"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "生物学的",
-    "reading": "せいぶつがくてき"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "間",
-    "reading": "あいだ"
-  },
-  {
-    "kanji": "終末期",
-    "reading": "しゅうまつき"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "含",
-    "reading": "ふく"
-  },
-  {
-    "kanji": "MDS",
-    "reading": "MDS"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "看護",
-    "reading": "かんご"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "向上",
-    "reading": "こうじょう"
-  },
-  {
-    "kanji": "3",
-    "reading": "3"
-  },
-  {
-    "kanji": "E",
-    "reading": "E"
-  },
-  {
-    "kanji": "項",
-    "reading": "こう"
-  },
-  {
-    "kanji": "診断",
-    "reading": "しんだん"
-  },
-  {
-    "kanji": "症状",
-    "reading": "しょうじょう"
-  },
-  {
-    "kanji": "改訂",
-    "reading": "かいてい"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "有効性",
-    "reading": "ゆうこうせい"
-  },
-  {
-    "kanji": "Celiprolol",
-    "reading": "Celiprolol"
-  },
-  {
-    "kanji": "hydrochloride",
-    "reading": "hydrochloride"
-  },
-  {
-    "kanji": "脂質",
-    "reading": "ししつ"
-  },
-  {
-    "kanji": "代謝",
-    "reading": "たいしゃ"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "影響",
-    "reading": "えいきょう"
-  },
-  {
-    "kanji": "特",
-    "reading": "とく"
-  },
-  {
-    "kanji": "low",
-    "reading": "low"
-  },
-  {
-    "kanji": "density",
-    "reading": "density"
-  },
-  {
-    "kanji": "lipoprotein",
-    "reading": "lipoprotein"
-  },
-  {
-    "kanji": "変化",
-    "reading": "へんか"
-  },
-  {
-    "kanji": "用",
-    "reading": "もち"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "家族",
-    "reading": "かぞく"
-  },
-  {
-    "kanji": "負担度",
-    "reading": "ふたんど"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "報",
-    "reading": "ほう"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "行動",
-    "reading": "こうどう"
-  },
-  {
-    "kanji": "介護者",
-    "reading": "かいごしゃ"
-  },
-  {
-    "kanji": "自身",
-    "reading": "じしん"
-  },
-  {
-    "kanji": "要因",
-    "reading": "よういん"
-  },
-  {
-    "kanji": "家族",
-    "reading": "かぞく"
-  },
-  {
-    "kanji": "負担度",
-    "reading": "ふたんど"
-  },
-  {
-    "kanji": "関連",
-    "reading": "かんれん"
-  },
-  {
-    "kanji": "重度",
-    "reading": "じゅうど"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "歯",
-    "reading": "は"
-  },
-  {
-    "kanji": "行動",
-    "reading": "こうどう"
-  },
-  {
-    "kanji": "再習慣化",
-    "reading": "さいしゅうかんか"
-  },
-  {
-    "kanji": "試",
-    "reading": "こころ"
-  },
-  {
-    "kanji": "LDL",
-    "reading": "LDL"
-  },
-  {
-    "kanji": "抗酸化能",
-    "reading": "こうさんかのう"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "加齢",
-    "reading": "かれい"
-  },
-  {
-    "kanji": "影響",
-    "reading": "えいきょう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "終末期",
-    "reading": "しゅうまつき"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "医学部",
-    "reading": "いがくぶ"
-  },
-  {
-    "kanji": "新入生",
-    "reading": "しんにゅうせい"
-  },
-  {
-    "kanji": "意識",
-    "reading": "いしき"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "他",
-    "reading": "た"
-  },
-  {
-    "kanji": "学部",
-    "reading": "がくぶ"
-  },
-  {
-    "kanji": "新入生",
-    "reading": "しんにゅうせい"
-  },
-  {
-    "kanji": "比較",
-    "reading": "ひかく"
-  },
-  {
-    "kanji": "用",
-    "reading": "もち"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "家族",
-    "reading": "かぞく"
-  },
-  {
-    "kanji": "負担度",
-    "reading": "ふたんど"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "3",
-    "reading": "3"
-  },
-  {
-    "kanji": "報",
-    "reading": "ぽう"
-  },
-  {
-    "kanji": "型",
-    "reading": "かた"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "行動",
-    "reading": "こうどう"
-  },
-  {
-    "kanji": "身体",
-    "reading": "しんたい"
-  },
-  {
-    "kanji": "障害度",
-    "reading": "しょうがいど"
-  },
-  {
-    "kanji": "家族",
-    "reading": "かぞく"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "負担度",
-    "reading": "ふたんど"
-  },
-  {
-    "kanji": "関連",
-    "reading": "かんれん"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "認知",
-    "reading": "にんち"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "脳",
-    "reading": "のう"
-  },
-  {
-    "kanji": "萎縮",
-    "reading": "いしゅく"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "非糖尿病",
-    "reading": "ひとうにょうびょう"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "比較",
-    "reading": "ひかく"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "入院",
-    "reading": "にゅういん"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "心理的",
-    "reading": "しんりてき"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "訪問",
-    "reading": "ほうもん"
-  },
-  {
-    "kanji": "診療",
-    "reading": "しんりょう"
-  },
-  {
-    "kanji": "対象",
-    "reading": "たいしょう"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "在宅死",
-    "reading": "ざいたくし"
-  },
-  {
-    "kanji": "可能",
-    "reading": "かのう"
-  },
-  {
-    "kanji": "因子",
-    "reading": "いんし"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "用語集",
-    "reading": "ようごしゅう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "関節",
-    "reading": "かんせつ"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  },
-  {
-    "kanji": "生体",
-    "reading": "せいたい"
-  },
-  {
-    "kanji": "防御",
-    "reading": "ぼうぎょ"
-  },
-  {
-    "kanji": "機構",
-    "reading": "きこう"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "42",
-    "reading": "42"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "学術",
-    "reading": "がくじゅつ"
-  },
-  {
-    "kanji": "集会",
-    "reading": "しゅうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "脳血管性",
-    "reading": "のうけっかんせい"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "臨床",
-    "reading": "りんしょう"
-  },
-  {
-    "kanji": "酸化",
-    "reading": "さんか"
-  },
-  {
-    "kanji": "LDL",
-    "reading": "LDL"
-  },
-  {
-    "kanji": "動脈",
-    "reading": "どうみゃく"
-  },
-  {
-    "kanji": "硬化",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "病",
-    "reading": "びょう"
-  },
-  {
-    "kanji": "発症",
-    "reading": "はっしょう"
-  },
-  {
-    "kanji": "機構",
-    "reading": "きこう"
-  },
-  {
-    "kanji": "蛋白",
-    "reading": "たんぱく"
-  },
-  {
-    "kanji": "E",
-    "reading": "E"
-  },
-  {
-    "kanji": "中心",
-    "reading": "ちゅうしん"
-  },
-  {
-    "kanji": "5",
-    "reading": "5"
-  },
-  {
-    "kanji": "療養型",
-    "reading": "りょうようがた"
-  },
-  {
-    "kanji": "病床群",
-    "reading": "びょうしょうぐん"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  },
-  {
-    "kanji": "療養型",
-    "reading": "りょうようがた"
-  },
-  {
-    "kanji": "病床群",
-    "reading": "びょうしょうぐん"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "課題",
-    "reading": "かだい"
-  },
-  {
-    "kanji": "地域",
-    "reading": "ちいき"
-  },
-  {
-    "kanji": "中核",
-    "reading": "ちゅうかく"
-  },
-  {
-    "kanji": "病院",
-    "reading": "びょういん"
-  },
-  {
-    "kanji": "立場",
-    "reading": "たちば"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "QOL",
-    "reading": "QOL"
-  },
-  {
-    "kanji": "在宅",
-    "reading": "ざいたく"
-  },
-  {
-    "kanji": "要",
-    "reading": "よう"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "訪問",
-    "reading": "ほうもん"
-  },
-  {
-    "kanji": "歯科",
-    "reading": "しか"
-  },
-  {
-    "kanji": "診療",
-    "reading": "しんりょう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "状況",
-    "reading": "じょうきょう"
-  },
-  {
-    "kanji": "要",
-    "reading": "よう"
-  },
-  {
-    "kanji": "介護者",
-    "reading": "かいごしゃ"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "特別",
-    "reading": "とくべつ"
-  },
-  {
-    "kanji": "発言",
-    "reading": "はつげん"
-  },
-  {
-    "kanji": "歯",
-    "reading": "は"
-  },
-  {
-    "kanji": "人",
-    "reading": "ひと"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "必要",
-    "reading": "ひつよう"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "肺炎",
-    "reading": "はいえん"
-  },
-  {
-    "kanji": "予防",
-    "reading": "よぼう"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "年間",
-    "reading": "ねんかん"
-  },
-  {
-    "kanji": "追跡",
-    "reading": "ついせき"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "結果",
-    "reading": "けっか"
-  },
-  {
-    "kanji": "老化",
-    "reading": "ろうか"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "基金",
-    "reading": "ききん"
-  },
-  {
-    "kanji": "1998",
-    "reading": "1998"
-  },
-  {
-    "kanji": "年度",
-    "reading": "ねんど"
-  },
-  {
-    "kanji": "受賞者",
-    "reading": "じゅしょうしゃ"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "呼吸器",
-    "reading": "こきゅうき"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "急性",
-    "reading": "きゅうせい"
-  },
-  {
-    "kanji": "増悪",
-    "reading": "ぞうあく"
-  },
-  {
-    "kanji": "早期",
-    "reading": "そうき"
-  },
-  {
-    "kanji": "診断法",
-    "reading": "しんだんほう"
-  },
-  {
-    "kanji": "開発",
-    "reading": "かいはつ"
-  },
-  {
-    "kanji": "気管支",
-    "reading": "きかんし"
-  },
-  {
-    "kanji": "喘息",
-    "reading": "ぜんそく"
-  },
-  {
-    "kanji": "中心",
-    "reading": "ちゅうしん"
-  },
-  {
-    "kanji": "加齢",
-    "reading": "かれい"
-  },
-  {
-    "kanji": "血管",
-    "reading": "けっかん"
-  },
-  {
-    "kanji": "内皮",
-    "reading": "ないひ"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "障害",
-    "reading": "しょうがい"
-  },
-  {
-    "kanji": "機序",
-    "reading": "きじょ"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "孤発性",
-    "reading": "こはつせい"
-  },
-  {
-    "kanji": "病",
-    "reading": "びょう"
-  },
-  {
-    "kanji": "病因",
-    "reading": "びょういん"
-  },
-  {
-    "kanji": "探索",
-    "reading": "たんさく"
-  },
-  {
-    "kanji": "骨粗鬆症",
-    "reading": "こつそしょうしょう"
-  },
-  {
-    "kanji": "予防",
-    "reading": "よぼう"
-  },
-  {
-    "kanji": "遺伝子",
-    "reading": "いでんし"
-  },
-  {
-    "kanji": "開発",
-    "reading": "かいはつ"
-  },
-  {
-    "kanji": "遺伝子",
-    "reading": "いでんし"
-  },
-  {
-    "kanji": "変異",
-    "reading": "へんい"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "発症",
-    "reading": "はっしょう"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "型",
-    "reading": "がた"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "心",
-    "reading": "しん"
-  },
-  {
-    "kanji": "脳血管",
-    "reading": "のうけっかん"
-  },
-  {
-    "kanji": "障害",
-    "reading": "しょうがい"
-  },
-  {
-    "kanji": "発症",
-    "reading": "はっしょう"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "高",
-    "reading": "こう"
-  },
-  {
-    "kanji": "Lp",
-    "reading": "Lp"
-  },
-  {
-    "kanji": "a",
-    "reading": "a"
-  },
-  {
-    "kanji": "血症",
-    "reading": "けつしょう"
-  },
-  {
-    "kanji": "影響",
-    "reading": "えいきょう"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "年間",
-    "reading": "ねんかん"
-  },
-  {
-    "kanji": "追跡",
-    "reading": "ついせき"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "作成",
-    "reading": "さくせい"
-  },
-  {
-    "kanji": "大腿骨",
-    "reading": "だいたいこつ"
-  },
-  {
-    "kanji": "頸部",
-    "reading": "けいぶ"
-  },
-  {
-    "kanji": "骨折",
-    "reading": "こっせつ"
-  },
-  {
-    "kanji": "術後",
-    "reading": "じゅつご"
-  },
-  {
-    "kanji": "長期",
-    "reading": "ちょうき"
-  },
-  {
-    "kanji": "短期",
-    "reading": "たんき"
-  },
-  {
-    "kanji": "比較",
-    "reading": "ひかく"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "COPD",
-    "reading": "COPD"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "吸入",
-    "reading": "きゅうにゅう"
-  },
-  {
-    "kanji": "抗",
-    "reading": "こう"
-  },
-  {
-    "kanji": "薬",
-    "reading": "やく"
-  },
-  {
-    "kanji": "肺",
-    "reading": "はい"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "生活",
-    "reading": "せいかつ"
-  },
-  {
-    "kanji": "質",
-    "reading": "しつ"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "効果",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "腰痛",
-    "reading": "ようつう"
-  },
-  {
-    "kanji": "下肢痛",
-    "reading": "かしつう"
-  },
-  {
-    "kanji": "対",
-    "reading": "たい"
-  },
-  {
-    "kanji": "鍼治療",
-    "reading": "はりちりょう"
-  },
-  {
-    "kanji": "効果",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "病院",
-    "reading": "びょういん"
-  },
-  {
-    "kanji": "鍼灸",
-    "reading": "しんきゅう"
-  },
-  {
-    "kanji": "理学",
-    "reading": "りがく"
-  },
-  {
-    "kanji": "療法室",
-    "reading": "りょうほうしつ"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "対象",
-    "reading": "たいしょう"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "相談室",
-    "reading": "そうだんしつ"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "問題点",
-    "reading": "もんだいてん"
-  },
-  {
-    "kanji": "都市",
-    "reading": "とし"
-  },
-  {
-    "kanji": "在住",
-    "reading": "ざいじゅう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "転倒",
-    "reading": "てんとう"
-  },
-  {
-    "kanji": "転落",
-    "reading": "てんらく"
-  },
-  {
-    "kanji": "事故",
-    "reading": "じこ"
-  },
-  {
-    "kanji": "救急",
-    "reading": "きゅうきゅう"
-  },
-  {
-    "kanji": "搬送",
-    "reading": "はんそう"
-  },
-  {
-    "kanji": "事例",
-    "reading": "じれい"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "32",
-    "reading": "32"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "関東",
-    "reading": "かんとう"
-  },
-  {
-    "kanji": "甲信越地方会",
-    "reading": "こうしんえつちほうかい"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "11",
-    "reading": "11"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "東海",
-    "reading": "とうかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "東海",
-    "reading": "とうかい"
-  },
-  {
-    "kanji": "地方",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "支部",
-    "reading": "しぶ"
-  },
-  {
-    "kanji": "講演会",
-    "reading": "こうえんかい"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "終末期",
-    "reading": "しゅうまつき"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "立場",
-    "reading": "たちば"
-  },
-  {
-    "kanji": "表明",
-    "reading": "ひょうめい"
-  },
-  {
-    "kanji": "表明",
-    "reading": "ひょうめい"
-  },
-  {
-    "kanji": "至",
-    "reading": "いた"
-  },
-  {
-    "kanji": "経緯",
-    "reading": "けいい"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "社会",
-    "reading": "しゃかい"
-  },
-  {
-    "kanji": "成年",
-    "reading": "せいねん"
-  },
-  {
-    "kanji": "後見",
-    "reading": "こうけん"
-  },
-  {
-    "kanji": "制度",
-    "reading": "せいど"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  },
-  {
-    "kanji": "蛋白",
-    "reading": "たんぱく"
-  },
-  {
-    "kanji": "異常症",
-    "reading": "いじょうしょう"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "43",
-    "reading": "43"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "学術",
-    "reading": "がくじゅつ"
-  },
-  {
-    "kanji": "集会",
-    "reading": "しゅうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "会長",
-    "reading": "かいちょう"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "老年病",
-    "reading": "ろうねんびょう"
-  },
-  {
-    "kanji": "先進",
-    "reading": "せんしん"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "誤嚥",
-    "reading": "ごえん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "要",
-    "reading": "よう"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "状態",
-    "reading": "じょうたい"
-  },
-  {
-    "kanji": "発現",
-    "reading": "はつげん"
-  },
-  {
-    "kanji": "危険",
-    "reading": "きけん"
-  },
-  {
-    "kanji": "因子",
-    "reading": "いんし"
-  },
-  {
-    "kanji": "高知県",
-    "reading": "こうちけん"
-  },
-  {
-    "kanji": "香北町",
-    "reading": "かほくちょう"
-  },
-  {
-    "kanji": "縦断",
-    "reading": "じゅうだん"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "呼吸器",
-    "reading": "こきゅうき"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "診療",
-    "reading": "しんりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "脳血管",
-    "reading": "のうけっかん"
-  },
-  {
-    "kanji": "障害",
-    "reading": "しょうがい"
-  },
-  {
-    "kanji": "最新",
-    "reading": "さいしん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者虚血性",
-    "reading": "こうれいしゃきょけつせい"
-  },
-  {
-    "kanji": "心疾患",
-    "reading": "しんしっかん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "高血圧",
-    "reading": "こうけつあつ"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "本邦",
-    "reading": "ほんぽう"
-  },
-  {
-    "kanji": "循環器",
-    "reading": "じゅんかんき"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "疫学",
-    "reading": "えきがく"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "今後",
-    "reading": "こんご"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "方向性",
-    "reading": "ほうこうせい"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "高血圧",
-    "reading": "こうけつあつ"
-  },
-  {
-    "kanji": "相対的",
-    "reading": "そうたいてき"
-  },
-  {
-    "kanji": "低血圧",
-    "reading": "ていけつあつ"
-  },
-  {
-    "kanji": "高血圧",
-    "reading": "こうけつあつ"
-  },
-  {
-    "kanji": "血管",
-    "reading": "けっかん"
-  },
-  {
-    "kanji": "在宅",
-    "reading": "ざいたく"
-  },
-  {
-    "kanji": "要",
-    "reading": "よう"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "薬剤",
-    "reading": "やくざい"
-  },
-  {
-    "kanji": "供給",
-    "reading": "きょうきゅう"
-  },
-  {
-    "kanji": "方法",
-    "reading": "ほうほう"
-  },
-  {
-    "kanji": "薬剤",
-    "reading": "やくざい"
-  },
-  {
-    "kanji": "知識",
-    "reading": "ちしき"
-  },
-  {
-    "kanji": "服薬",
-    "reading": "ふくやく"
-  },
-  {
-    "kanji": "予後",
-    "reading": "よご"
-  },
-  {
-    "kanji": "慢性期",
-    "reading": "まんせいき"
-  },
-  {
-    "kanji": "脳梗塞",
-    "reading": "のうこうそく"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "嚥下",
-    "reading": "えんげ"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "頭部",
-    "reading": "とうぶ"
-  },
-  {
-    "kanji": "CT",
-    "reading": "CT"
-  },
-  {
-    "kanji": "所見",
-    "reading": "しょけん"
-  },
-  {
-    "kanji": "痴呆性",
-    "reading": "ちほうせい"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "動物",
-    "reading": "どうぶつ"
-  },
-  {
-    "kanji": "介在",
-    "reading": "かいざい"
-  },
-  {
-    "kanji": "療法",
-    "reading": "りょうほう"
-  },
-  {
-    "kanji": "試",
-    "reading": "こころ"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "方法",
-    "reading": "ほうほう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "同一",
-    "reading": "どういつ"
-  },
-  {
-    "kanji": "経営",
-    "reading": "けいえい"
-  },
-  {
-    "kanji": "母体",
-    "reading": "ぼたい"
-  },
-  {
-    "kanji": "同",
-    "reading": "どう"
-  },
-  {
-    "kanji": "規模",
-    "reading": "きぼ"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "ヵ所",
-    "reading": "かしょ"
-  },
-  {
-    "kanji": "特別",
-    "reading": "とくべつ"
-  },
-  {
-    "kanji": "養護",
-    "reading": "ようご"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "outcome",
-    "reading": "outcome"
-  },
-  {
-    "kanji": "比較",
-    "reading": "ひかく"
-  },
-  {
-    "kanji": "入所者",
-    "reading": "にゅうしょしゃ"
-  },
-  {
-    "kanji": "死亡",
-    "reading": "しぼう"
-  },
-  {
-    "kanji": "入院",
-    "reading": "にゅういん"
-  },
-  {
-    "kanji": "状況",
-    "reading": "じょうきょう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "X",
-    "reading": "X"
-  },
-  {
-    "kanji": "線画像",
-    "reading": "せんがぞう"
-  },
-  {
-    "kanji": "空間",
-    "reading": "くうかん"
-  },
-  {
-    "kanji": "周波数",
-    "reading": "しゅうはすう"
-  },
-  {
-    "kanji": "解析",
-    "reading": "かいせき"
-  },
-  {
-    "kanji": "用",
-    "reading": "もち"
-  },
-  {
-    "kanji": "骨",
-    "reading": "ほね"
-  },
-  {
-    "kanji": "構造",
-    "reading": "こうぞう"
-  },
-  {
-    "kanji": "定量化",
-    "reading": "ていりょうか"
-  },
-  {
-    "kanji": "試",
-    "reading": "こころ"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "11",
-    "reading": "11"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "近畿",
-    "reading": "きんき"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "12",
-    "reading": "12"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "中国",
-    "reading": "ちゅうごく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "病",
-    "reading": "びょう"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "進歩",
-    "reading": "しんぽ"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  },
-  {
-    "kanji": "百",
-    "reading": "ひゃく"
-  },
-  {
-    "kanji": "寿者",
-    "reading": "じゅしゃ"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "示唆",
-    "reading": "しさ"
-  },
-  {
-    "kanji": "加齢",
-    "reading": "かれい"
-  },
-  {
-    "kanji": "炎症",
-    "reading": "えんしょう"
-  },
-  {
-    "kanji": "市民",
-    "reading": "しみん"
-  },
-  {
-    "kanji": "公開",
-    "reading": "こうかい"
-  },
-  {
-    "kanji": "講座",
-    "reading": "こうざ"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "2000",
-    "reading": "2000"
-  },
-  {
-    "kanji": "仙台",
-    "reading": "せんだい"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "元年",
-    "reading": "がんねん"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "制度",
-    "reading": "せいど"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "標準化",
-    "reading": "ひょうじゅんか"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "対象",
-    "reading": "たいしょう"
-  },
-  {
-    "kanji": "外",
-    "reading": "がい"
-  },
-  {
-    "kanji": "利用者",
-    "reading": "りようしゃ"
-  },
-  {
-    "kanji": "支援",
-    "reading": "しえん"
-  },
-  {
-    "kanji": "5",
-    "reading": "5"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "総合的",
-    "reading": "そうごうてき"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "知識",
-    "reading": "ちしき"
-  },
-  {
-    "kanji": "利用",
-    "reading": "りよう"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "主治医",
-    "reading": "しゅじい"
-  },
-  {
-    "kanji": "意見書",
-    "reading": "いけんしょ"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "認定",
-    "reading": "にんてい"
-  },
-  {
-    "kanji": "施設",
-    "reading": "しせつ"
-  },
-  {
-    "kanji": "療養型",
-    "reading": "りょうようがた"
-  },
-  {
-    "kanji": "病床群",
-    "reading": "びょうしょうぐん"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "保健",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "施設",
-    "reading": "しせつ"
-  },
-  {
-    "kanji": "多施設",
-    "reading": "たしせつ"
-  },
-  {
-    "kanji": "共同",
-    "reading": "きょうどう"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "在宅",
-    "reading": "ざいたく"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "看護",
-    "reading": "かんご"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "下",
-    "reading": "か"
-  },
-  {
-    "kanji": "有効",
-    "reading": "ゆうこう"
-  },
-  {
-    "kanji": "活用",
-    "reading": "かつよう"
-  },
-  {
-    "kanji": "連携",
-    "reading": "れんけい"
-  },
-  {
-    "kanji": "方",
-    "reading": "かた"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "在宅",
-    "reading": "ざいたく"
-  },
-  {
-    "kanji": "看護",
-    "reading": "かんご"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "連携",
-    "reading": "れんけい"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "保険",
-    "reading": "ほけん"
-  },
-  {
-    "kanji": "訪問",
-    "reading": "ほうもん"
-  },
-  {
-    "kanji": "看護",
-    "reading": "かんご"
-  },
-  {
-    "kanji": "方",
-    "reading": "かた"
-  },
-  {
-    "kanji": "3",
-    "reading": "3"
-  },
-  {
-    "kanji": "Aging",
-    "reading": "Aging"
-  },
-  {
-    "kanji": "Science",
-    "reading": "Science"
-  },
-  {
-    "kanji": "Forum",
-    "reading": "Forum"
-  },
-  {
-    "kanji": "百",
-    "reading": "ひゃく"
-  },
-  {
-    "kanji": "寿者",
-    "reading": "じゅしゃ"
-  },
-  {
-    "kanji": "長",
-    "reading": "ちょう"
-  },
-  {
-    "kanji": "寿老人",
-    "reading": "じゅろうじん"
-  },
-  {
-    "kanji": "学",
-    "reading": "まな"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "長寿",
-    "reading": "ちょうじゅ"
-  },
-  {
-    "kanji": "地域",
-    "reading": "ちいき"
-  },
-  {
-    "kanji": "沖縄",
-    "reading": "おきなわ"
-  },
-  {
-    "kanji": "風土",
-    "reading": "ふうど"
-  },
-  {
-    "kanji": "生活",
-    "reading": "せいかつ"
-  },
-  {
-    "kanji": "習慣",
-    "reading": "しゅうかん"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "長寿",
-    "reading": "ちょうじゅ"
-  },
-  {
-    "kanji": "関連",
-    "reading": "かんれん"
-  },
-  {
-    "kanji": "遺伝子",
-    "reading": "いでんし"
-  },
-  {
-    "kanji": "3",
-    "reading": "3"
-  },
-  {
-    "kanji": "病理学",
-    "reading": "びょうりがく"
-  },
-  {
-    "kanji": "長",
-    "reading": "ちょう"
-  },
-  {
-    "kanji": "寿老人",
-    "reading": "じゅろうじん"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "長寿者",
-    "reading": "ちょうじゅしゃ"
-  },
-  {
-    "kanji": "生理学的",
-    "reading": "せいりがくてき"
-  },
-  {
-    "kanji": "条件",
-    "reading": "じょうけん"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "高脂血症",
-    "reading": "こうしけつしょう"
-  },
-  {
-    "kanji": "NO",
-    "reading": "NO"
-  },
-  {
-    "kanji": "依存性",
-    "reading": "いぞんせい"
-  },
-  {
-    "kanji": "血小板",
-    "reading": "けっしょうばん"
-  },
-  {
-    "kanji": "凝集",
-    "reading": "ぎょうしゅう"
-  },
-  {
-    "kanji": "抑制",
-    "reading": "よくせい"
-  },
-  {
-    "kanji": "異常",
-    "reading": "いじょう"
-  },
-  {
-    "kanji": "痴呆性",
-    "reading": "ちほうせい"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "精神",
-    "reading": "せいしん"
-  },
-  {
-    "kanji": "身体",
-    "reading": "しんたい"
-  },
-  {
-    "kanji": "状況",
-    "reading": "じょうきょう"
-  },
-  {
-    "kanji": "施設",
-    "reading": "しせつ"
-  },
-  {
-    "kanji": "入所",
-    "reading": "にゅうしょ"
-  },
-  {
-    "kanji": "後",
-    "reading": "ご"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "年間",
-    "reading": "ねんかん"
-  },
-  {
-    "kanji": "変化",
-    "reading": "へんか"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "表",
-    "reading": "ひょう"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "Parkinson",
-    "reading": "Parkinson"
-  },
-  {
-    "kanji": "病",
-    "reading": "びょう"
-  },
-  {
-    "kanji": "記憶",
-    "reading": "きおく"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "神経",
-    "reading": "しんけい"
-  },
-  {
-    "kanji": "心理学的",
-    "reading": "しんりがくてき"
-  },
-  {
-    "kanji": "検査",
-    "reading": "けんさ"
-  },
-  {
-    "kanji": "脳",
-    "reading": "のう"
-  },
-  {
-    "kanji": "血流",
-    "reading": "けつりゅう"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "音楽",
-    "reading": "おんがく"
-  },
-  {
-    "kanji": "療法",
-    "reading": "りょうほう"
-  },
-  {
-    "kanji": "細胞",
-    "reading": "さいぼう"
-  },
-  {
-    "kanji": "活性",
-    "reading": "かっせい"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "細胞数",
-    "reading": "さいぼうすう"
-  },
-  {
-    "kanji": "変化",
-    "reading": "へんか"
-  },
-  {
-    "kanji": "特養",
-    "reading": "とくよう"
-  },
-  {
-    "kanji": "入所者",
-    "reading": "にゅうしょしゃ"
-  },
-  {
-    "kanji": "QOL",
-    "reading": "QOL"
-  },
-  {
-    "kanji": "向上",
-    "reading": "こうじょう"
-  },
-  {
-    "kanji": "目的",
-    "reading": "もくてき"
-  },
-  {
-    "kanji": "鍼灸",
-    "reading": "しんきゅう"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "試",
-    "reading": "こころ"
-  },
-  {
-    "kanji": "医学生",
-    "reading": "いがくせい"
-  },
-  {
-    "kanji": "対",
-    "reading": "たい"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "終末期",
-    "reading": "しゅうまつき"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "意識",
-    "reading": "いしき"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "質的",
-    "reading": "しつてき"
-  },
-  {
-    "kanji": "分析法",
-    "reading": "ぶんせきほう"
-  },
-  {
-    "kanji": "用",
-    "reading": "もち"
-  },
-  {
-    "kanji": "意識",
-    "reading": "いしき"
-  },
-  {
-    "kanji": "構造",
-    "reading": "こうぞう"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "10",
-    "reading": "10"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "東北",
-    "reading": "とうほく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "11",
-    "reading": "11"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "東北",
-    "reading": "とうほく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "10",
-    "reading": "10"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "北陸",
-    "reading": "ほくりく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "11",
-    "reading": "11"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "北陸",
-    "reading": "ほくりく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "22",
-    "reading": "22"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "学会",
-    "reading": "がっかい"
-  },
-  {
-    "kanji": "総会",
-    "reading": "そうかい"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "43",
-    "reading": "43"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "学術",
-    "reading": "がくじゅつ"
-  },
-  {
-    "kanji": "集会",
-    "reading": "しゅうかい"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "抄録集",
-    "reading": "しょうろくしゅう"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "用語",
-    "reading": "ようご"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "大動脈",
-    "reading": "だいどうみゃく"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "腹部",
-    "reading": "ふくぶ"
-  },
-  {
-    "kanji": "大",
-    "reading": "だい"
-  },
-  {
-    "kanji": "動脈瘤",
-    "reading": "どうみゃくりゅう"
-  },
-  {
-    "kanji": "病態",
-    "reading": "びょうたい"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  },
-  {
-    "kanji": "難聴",
-    "reading": "なんちょう"
-  },
-  {
-    "kanji": "分子",
-    "reading": "ぶんし"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "42",
-    "reading": "42"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "学術",
-    "reading": "がくじゅつ"
-  },
-  {
-    "kanji": "集会",
-    "reading": "しゅうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "感染性心",
-    "reading": "かんせんせいしん"
-  },
-  {
-    "kanji": "内",
-    "reading": "ない"
-  },
-  {
-    "kanji": "膜炎",
-    "reading": "まくえん"
-  },
-  {
-    "kanji": "動脈",
-    "reading": "どうみゃく"
-  },
-  {
-    "kanji": "硬化",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "新",
-    "reading": "あたら"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "遺伝子",
-    "reading": "いでんし"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "可能性",
-    "reading": "かのうせい"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "経口",
-    "reading": "けいこう"
-  },
-  {
-    "kanji": "血糖",
-    "reading": "けっとう"
-  },
-  {
-    "kanji": "降下薬",
-    "reading": "こうかやく"
-  },
-  {
-    "kanji": "療法",
-    "reading": "りょうほう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "関連",
-    "reading": "かんれん"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "臨床",
-    "reading": "りんしょう"
-  },
-  {
-    "kanji": "問題点",
-    "reading": "もんだいてん"
-  },
-  {
-    "kanji": "動脈",
-    "reading": "どうみゃく"
-  },
-  {
-    "kanji": "硬化性",
-    "reading": "こうかせい"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "予防",
-    "reading": "よぼう"
-  },
-  {
-    "kanji": "頸動脈",
-    "reading": "けいどうみゃく"
-  },
-  {
-    "kanji": "硬化",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "臨床",
-    "reading": "りんしょう"
-  },
-  {
-    "kanji": "若手",
-    "reading": "わかて"
-  },
-  {
-    "kanji": "企画",
-    "reading": "きかく"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "呼吸器",
-    "reading": "こきゅうき"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "対",
-    "reading": "たい"
-  },
-  {
-    "kanji": "新",
-    "reading": "しん"
-  },
-  {
-    "kanji": "戦略",
-    "reading": "せんりゃく"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "慢性",
-    "reading": "まんせい"
-  },
-  {
-    "kanji": "閉塞性",
-    "reading": "へいそくせい"
-  },
-  {
-    "kanji": "肺",
-    "reading": "はい"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "総合的",
-    "reading": "そうごうてき"
-  },
-  {
-    "kanji": "内科",
-    "reading": "ないか"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "包括的",
-    "reading": "ほうかつてき"
-  },
-  {
-    "kanji": "呼吸",
-    "reading": "こきゅう"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "課題",
-    "reading": "かだい"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "多",
-    "reading": "おお"
-  },
-  {
-    "kanji": "市中",
-    "reading": "しちゅう"
-  },
-  {
-    "kanji": "肺炎",
-    "reading": "はいえん"
-  },
-  {
-    "kanji": "肺結核",
-    "reading": "はいけっかく"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "進歩",
-    "reading": "しんぽ"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "肺癌",
-    "reading": "はいがん"
-  },
-  {
-    "kanji": "内科的",
-    "reading": "ないかてき"
-  },
-  {
-    "kanji": "新",
-    "reading": "あたら"
-  },
-  {
-    "kanji": "治療法",
-    "reading": "ちりょうほう"
-  },
-  {
-    "kanji": "1",
-    "reading": "1"
-  },
-  {
-    "kanji": "豊",
-    "reading": "ゆた"
-  },
-  {
-    "kanji": "高齢化",
-    "reading": "こうれいか"
-  },
-  {
-    "kanji": "社会",
-    "reading": "しゃかい"
-  },
-  {
-    "kanji": "実現",
-    "reading": "じつげん"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "機器",
-    "reading": "きき"
-  },
-  {
-    "kanji": "住宅",
-    "reading": "じゅうたく"
-  },
-  {
-    "kanji": "方",
-    "reading": "かた"
-  },
-  {
-    "kanji": "介護用",
-    "reading": "かいごよう"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "将来",
-    "reading": "しょうらい"
-  },
-  {
-    "kanji": "日常",
-    "reading": "にちじょう"
-  },
-  {
-    "kanji": "生活",
-    "reading": "せいかつ"
-  },
-  {
-    "kanji": "活動",
-    "reading": "かつどう"
-  },
-  {
-    "kanji": "ADL",
-    "reading": "ADL"
-  },
-  {
-    "kanji": "支援",
-    "reading": "しえん"
-  },
-  {
-    "kanji": "水沢",
-    "reading": "みずさわ"
-  },
-  {
-    "kanji": "独居",
-    "reading": "どっきょ"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "施設",
-    "reading": "しせつ"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "機器",
-    "reading": "きき"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "将来",
-    "reading": "しょうらい"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "活動的",
-    "reading": "かつどうてき"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "地域",
-    "reading": "ちいき"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "規定",
-    "reading": "きてい"
-  },
-  {
-    "kanji": "要因",
-    "reading": "よういん"
-  },
-  {
-    "kanji": "学際的",
-    "reading": "がくさいてき"
-  },
-  {
-    "kanji": "縦断",
-    "reading": "じゅうだん"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "TMIG",
-    "reading": "TMIG"
-  },
-  {
-    "kanji": "LISA",
-    "reading": "LISA"
-  },
-  {
-    "kanji": "活動的",
-    "reading": "かつどうてき"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "実態",
-    "reading": "じったい"
-  },
-  {
-    "kanji": "規定",
-    "reading": "きてい"
-  },
-  {
-    "kanji": "要因",
-    "reading": "よういん"
-  },
-  {
-    "kanji": "活動的",
-    "reading": "かつどうてき"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "生物学的",
-    "reading": "せいぶつがくてき"
-  },
-  {
-    "kanji": "余命",
-    "reading": "よめい"
-  },
-  {
-    "kanji": "間",
-    "reading": "あいだ"
-  },
-  {
-    "kanji": "終末期",
-    "reading": "しゅうまつき"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "含",
-    "reading": "ふく"
-  },
-  {
-    "kanji": "MDS",
-    "reading": "MDS"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "看護",
-    "reading": "かんご"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "向上",
-    "reading": "こうじょう"
-  },
-  {
-    "kanji": "3",
-    "reading": "3"
-  },
-  {
-    "kanji": "E",
-    "reading": "E"
-  },
-  {
-    "kanji": "項",
-    "reading": "こう"
-  },
-  {
-    "kanji": "診断",
-    "reading": "しんだん"
-  },
-  {
-    "kanji": "症状",
-    "reading": "しょうじょう"
-  },
-  {
-    "kanji": "改訂",
-    "reading": "かいてい"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "有効性",
-    "reading": "ゆうこうせい"
-  },
-  {
-    "kanji": "Celiprolol",
-    "reading": "Celiprolol"
-  },
-  {
-    "kanji": "hydrochloride",
-    "reading": "hydrochloride"
-  },
-  {
-    "kanji": "脂質",
-    "reading": "ししつ"
-  },
-  {
-    "kanji": "代謝",
-    "reading": "たいしゃ"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "影響",
-    "reading": "えいきょう"
-  },
-  {
-    "kanji": "特",
-    "reading": "とく"
-  },
-  {
-    "kanji": "low",
-    "reading": "low"
-  },
-  {
-    "kanji": "density",
-    "reading": "density"
-  },
-  {
-    "kanji": "lipoprotein",
-    "reading": "lipoprotein"
-  },
-  {
-    "kanji": "変化",
-    "reading": "へんか"
-  },
-  {
-    "kanji": "用",
-    "reading": "もち"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "家族",
-    "reading": "かぞく"
-  },
-  {
-    "kanji": "負担度",
-    "reading": "ふたんど"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "報",
-    "reading": "ほう"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "行動",
-    "reading": "こうどう"
-  },
-  {
-    "kanji": "介護者",
-    "reading": "かいごしゃ"
-  },
-  {
-    "kanji": "自身",
-    "reading": "じしん"
-  },
-  {
-    "kanji": "要因",
-    "reading": "よういん"
-  },
-  {
-    "kanji": "家族",
-    "reading": "かぞく"
-  },
-  {
-    "kanji": "負担度",
-    "reading": "ふたんど"
-  },
-  {
-    "kanji": "関連",
-    "reading": "かんれん"
-  },
-  {
-    "kanji": "重度",
-    "reading": "じゅうど"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "歯",
-    "reading": "は"
-  },
-  {
-    "kanji": "行動",
-    "reading": "こうどう"
-  },
-  {
-    "kanji": "再習慣化",
-    "reading": "さいしゅうかんか"
-  },
-  {
-    "kanji": "試",
-    "reading": "こころ"
-  },
-  {
-    "kanji": "LDL",
-    "reading": "LDL"
-  },
-  {
-    "kanji": "抗酸化能",
-    "reading": "こうさんかのう"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "加齢",
-    "reading": "かれい"
-  },
-  {
-    "kanji": "影響",
-    "reading": "えいきょう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "終末期",
-    "reading": "しゅうまつき"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "医学部",
-    "reading": "いがくぶ"
-  },
-  {
-    "kanji": "新入生",
-    "reading": "しんにゅうせい"
-  },
-  {
-    "kanji": "意識",
-    "reading": "いしき"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "他",
-    "reading": "た"
-  },
-  {
-    "kanji": "学部",
-    "reading": "がくぶ"
-  },
-  {
-    "kanji": "新入生",
-    "reading": "しんにゅうせい"
-  },
-  {
-    "kanji": "比較",
-    "reading": "ひかく"
-  },
-  {
-    "kanji": "用",
-    "reading": "もち"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "家族",
-    "reading": "かぞく"
-  },
-  {
-    "kanji": "負担度",
-    "reading": "ふたんど"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "3",
-    "reading": "3"
-  },
-  {
-    "kanji": "報",
-    "reading": "ぽう"
-  },
-  {
-    "kanji": "型",
-    "reading": "かた"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "問題",
-    "reading": "もんだい"
-  },
-  {
-    "kanji": "行動",
-    "reading": "こうどう"
-  },
-  {
-    "kanji": "身体",
-    "reading": "しんたい"
-  },
-  {
-    "kanji": "障害度",
-    "reading": "しょうがいど"
-  },
-  {
-    "kanji": "家族",
-    "reading": "かぞく"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "負担度",
-    "reading": "ふたんど"
-  },
-  {
-    "kanji": "関連",
-    "reading": "かんれん"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "認知",
-    "reading": "にんち"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "脳",
-    "reading": "のう"
-  },
-  {
-    "kanji": "萎縮",
-    "reading": "いしゅく"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "非糖尿病",
-    "reading": "ひとうにょうびょう"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "比較",
-    "reading": "ひかく"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "入院",
-    "reading": "にゅういん"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "心理的",
-    "reading": "しんりてき"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "訪問",
-    "reading": "ほうもん"
-  },
-  {
-    "kanji": "診療",
-    "reading": "しんりょう"
-  },
-  {
-    "kanji": "対象",
-    "reading": "たいしょう"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "在宅死",
-    "reading": "ざいたくし"
-  },
-  {
-    "kanji": "可能",
-    "reading": "かのう"
-  },
-  {
-    "kanji": "因子",
-    "reading": "いんし"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "用語集",
-    "reading": "ようごしゅう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "関節",
-    "reading": "かんせつ"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  },
-  {
-    "kanji": "生体",
-    "reading": "せいたい"
-  },
-  {
-    "kanji": "防御",
-    "reading": "ぼうぎょ"
-  },
-  {
-    "kanji": "機構",
-    "reading": "きこう"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "42",
-    "reading": "42"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "学術",
-    "reading": "がくじゅつ"
-  },
-  {
-    "kanji": "集会",
-    "reading": "しゅうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "脳血管性",
-    "reading": "のうけっかんせい"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "臨床",
-    "reading": "りんしょう"
-  },
-  {
-    "kanji": "酸化",
-    "reading": "さんか"
-  },
-  {
-    "kanji": "LDL",
-    "reading": "LDL"
-  },
-  {
-    "kanji": "動脈",
-    "reading": "どうみゃく"
-  },
-  {
-    "kanji": "硬化",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "病",
-    "reading": "びょう"
-  },
-  {
-    "kanji": "発症",
-    "reading": "はっしょう"
-  },
-  {
-    "kanji": "機構",
-    "reading": "きこう"
-  },
-  {
-    "kanji": "蛋白",
-    "reading": "たんぱく"
-  },
-  {
-    "kanji": "E",
-    "reading": "E"
-  },
-  {
-    "kanji": "中心",
-    "reading": "ちゅうしん"
-  },
-  {
-    "kanji": "5",
-    "reading": "5"
-  },
-  {
-    "kanji": "療養型",
-    "reading": "りょうようがた"
-  },
-  {
-    "kanji": "病床群",
-    "reading": "びょうしょうぐん"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  },
-  {
-    "kanji": "療養型",
-    "reading": "りょうようがた"
-  },
-  {
-    "kanji": "病床群",
-    "reading": "びょうしょうぐん"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "課題",
-    "reading": "かだい"
-  },
-  {
-    "kanji": "地域",
-    "reading": "ちいき"
-  },
-  {
-    "kanji": "中核",
-    "reading": "ちゅうかく"
-  },
-  {
-    "kanji": "病院",
-    "reading": "びょういん"
-  },
-  {
-    "kanji": "立場",
-    "reading": "たちば"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "QOL",
-    "reading": "QOL"
-  },
-  {
-    "kanji": "在宅",
-    "reading": "ざいたく"
-  },
-  {
-    "kanji": "要",
-    "reading": "よう"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "訪問",
-    "reading": "ほうもん"
-  },
-  {
-    "kanji": "歯科",
-    "reading": "しか"
-  },
-  {
-    "kanji": "診療",
-    "reading": "しんりょう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "状況",
-    "reading": "じょうきょう"
-  },
-  {
-    "kanji": "要",
-    "reading": "よう"
-  },
-  {
-    "kanji": "介護者",
-    "reading": "かいごしゃ"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "特別",
-    "reading": "とくべつ"
-  },
-  {
-    "kanji": "発言",
-    "reading": "はつげん"
-  },
-  {
-    "kanji": "歯",
-    "reading": "は"
-  },
-  {
-    "kanji": "人",
-    "reading": "ひと"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "必要",
-    "reading": "ひつよう"
-  },
-  {
-    "kanji": "口腔",
-    "reading": "こうくう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "肺炎",
-    "reading": "はいえん"
-  },
-  {
-    "kanji": "予防",
-    "reading": "よぼう"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "年間",
-    "reading": "ねんかん"
-  },
-  {
-    "kanji": "追跡",
-    "reading": "ついせき"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "結果",
-    "reading": "けっか"
-  },
-  {
-    "kanji": "老化",
-    "reading": "ろうか"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "基金",
-    "reading": "ききん"
-  },
-  {
-    "kanji": "1998",
-    "reading": "1998"
-  },
-  {
-    "kanji": "年度",
-    "reading": "ねんど"
-  },
-  {
-    "kanji": "受賞者",
-    "reading": "じゅしょうしゃ"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "老年者",
-    "reading": "ろうねんしゃ"
-  },
-  {
-    "kanji": "呼吸器",
-    "reading": "こきゅうき"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "急性",
-    "reading": "きゅうせい"
-  },
-  {
-    "kanji": "増悪",
-    "reading": "ぞうあく"
-  },
-  {
-    "kanji": "早期",
-    "reading": "そうき"
-  },
-  {
-    "kanji": "診断法",
-    "reading": "しんだんほう"
-  },
-  {
-    "kanji": "開発",
-    "reading": "かいはつ"
-  },
-  {
-    "kanji": "気管支",
-    "reading": "きかんし"
-  },
-  {
-    "kanji": "喘息",
-    "reading": "ぜんそく"
-  },
-  {
-    "kanji": "中心",
-    "reading": "ちゅうしん"
-  },
-  {
-    "kanji": "加齢",
-    "reading": "かれい"
-  },
-  {
-    "kanji": "血管",
-    "reading": "けっかん"
-  },
-  {
-    "kanji": "内皮",
-    "reading": "ないひ"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "障害",
-    "reading": "しょうがい"
-  },
-  {
-    "kanji": "機序",
-    "reading": "きじょ"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "孤発性",
-    "reading": "こはつせい"
-  },
-  {
-    "kanji": "病",
-    "reading": "びょう"
-  },
-  {
-    "kanji": "病因",
-    "reading": "びょういん"
-  },
-  {
-    "kanji": "探索",
-    "reading": "たんさく"
-  },
-  {
-    "kanji": "骨粗鬆症",
-    "reading": "こつそしょうしょう"
-  },
-  {
-    "kanji": "予防",
-    "reading": "よぼう"
-  },
-  {
-    "kanji": "遺伝子",
-    "reading": "いでんし"
-  },
-  {
-    "kanji": "開発",
-    "reading": "かいはつ"
-  },
-  {
-    "kanji": "遺伝子",
-    "reading": "いでんし"
-  },
-  {
-    "kanji": "変異",
-    "reading": "へんい"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "発症",
-    "reading": "はっしょう"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "型",
-    "reading": "がた"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "心",
-    "reading": "しん"
-  },
-  {
-    "kanji": "脳血管",
-    "reading": "のうけっかん"
-  },
-  {
-    "kanji": "障害",
-    "reading": "しょうがい"
-  },
-  {
-    "kanji": "発症",
-    "reading": "はっしょう"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "高",
-    "reading": "こう"
-  },
-  {
-    "kanji": "Lp",
-    "reading": "Lp"
-  },
-  {
-    "kanji": "a",
-    "reading": "a"
-  },
-  {
-    "kanji": "血症",
-    "reading": "けつしょう"
-  },
-  {
-    "kanji": "影響",
-    "reading": "えいきょう"
-  },
-  {
-    "kanji": "4",
-    "reading": "4"
-  },
-  {
-    "kanji": "年間",
-    "reading": "ねんかん"
-  },
-  {
-    "kanji": "追跡",
-    "reading": "ついせき"
-  },
-  {
-    "kanji": "調査",
-    "reading": "ちょうさ"
-  },
-  {
-    "kanji": "作成",
-    "reading": "さくせい"
-  },
-  {
-    "kanji": "大腿骨",
-    "reading": "だいたいこつ"
-  },
-  {
-    "kanji": "頸部",
-    "reading": "けいぶ"
-  },
-  {
-    "kanji": "骨折",
-    "reading": "こっせつ"
-  },
-  {
-    "kanji": "術後",
-    "reading": "じゅつご"
-  },
-  {
-    "kanji": "長期",
-    "reading": "ちょうき"
-  },
-  {
-    "kanji": "短期",
-    "reading": "たんき"
-  },
-  {
-    "kanji": "比較",
-    "reading": "ひかく"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "COPD",
-    "reading": "COPD"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "吸入",
-    "reading": "きゅうにゅう"
-  },
-  {
-    "kanji": "抗",
-    "reading": "こう"
-  },
-  {
-    "kanji": "薬",
-    "reading": "やく"
-  },
-  {
-    "kanji": "肺",
-    "reading": "はい"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "生活",
-    "reading": "せいかつ"
-  },
-  {
-    "kanji": "質",
-    "reading": "しつ"
-  },
-  {
-    "kanji": "及",
-    "reading": "およ"
-  },
-  {
-    "kanji": "効果",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "腰痛",
-    "reading": "ようつう"
-  },
-  {
-    "kanji": "下肢痛",
-    "reading": "かしつう"
-  },
-  {
-    "kanji": "対",
-    "reading": "たい"
-  },
-  {
-    "kanji": "鍼治療",
-    "reading": "はりちりょう"
-  },
-  {
-    "kanji": "効果",
-    "reading": "こうか"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "病院",
-    "reading": "びょういん"
-  },
-  {
-    "kanji": "鍼灸",
-    "reading": "しんきゅう"
-  },
-  {
-    "kanji": "理学",
-    "reading": "りがく"
-  },
-  {
-    "kanji": "療法室",
-    "reading": "りょうほうしつ"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "対象",
-    "reading": "たいしょう"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "相談室",
-    "reading": "そうだんしつ"
-  },
-  {
-    "kanji": "痴呆",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "現状",
-    "reading": "げんじょう"
-  },
-  {
-    "kanji": "問題点",
-    "reading": "もんだいてん"
-  },
-  {
-    "kanji": "都市",
-    "reading": "とし"
-  },
-  {
-    "kanji": "在住",
-    "reading": "ざいじゅう"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "転倒",
-    "reading": "てんとう"
-  },
-  {
-    "kanji": "転落",
-    "reading": "てんらく"
-  },
-  {
-    "kanji": "事故",
-    "reading": "じこ"
-  },
-  {
-    "kanji": "救急",
-    "reading": "きゅうきゅう"
-  },
-  {
-    "kanji": "搬送",
-    "reading": "はんそう"
-  },
-  {
-    "kanji": "事例",
-    "reading": "じれい"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "32",
-    "reading": "32"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "関東",
-    "reading": "かんとう"
-  },
-  {
-    "kanji": "甲信越地方会",
-    "reading": "こうしんえつちほうかい"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "11",
-    "reading": "11"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "東海",
-    "reading": "とうかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "東海",
-    "reading": "とうかい"
-  },
-  {
-    "kanji": "地方",
-    "reading": "ちほう"
-  },
-  {
-    "kanji": "支部",
-    "reading": "しぶ"
-  },
-  {
-    "kanji": "講演会",
-    "reading": "こうえんかい"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "終末期",
-    "reading": "しゅうまつき"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "立場",
-    "reading": "たちば"
-  },
-  {
-    "kanji": "表明",
-    "reading": "ひょうめい"
-  },
-  {
-    "kanji": "表明",
-    "reading": "ひょうめい"
-  },
-  {
-    "kanji": "至",
-    "reading": "いた"
-  },
-  {
-    "kanji": "経緯",
-    "reading": "けいい"
-  },
-  {
-    "kanji": "高齢",
-    "reading": "こうれい"
-  },
-  {
-    "kanji": "社会",
-    "reading": "しゃかい"
-  },
-  {
-    "kanji": "成年",
-    "reading": "せいねん"
-  },
-  {
-    "kanji": "後見",
-    "reading": "こうけん"
-  },
-  {
-    "kanji": "制度",
-    "reading": "せいど"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  },
-  {
-    "kanji": "蛋白",
-    "reading": "たんぱく"
-  },
-  {
-    "kanji": "異常症",
-    "reading": "いじょうしょう"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "43",
-    "reading": "43"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "学術",
-    "reading": "がくじゅつ"
-  },
-  {
-    "kanji": "集会",
-    "reading": "しゅうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "会長",
-    "reading": "かいちょう"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "老年病",
-    "reading": "ろうねんびょう"
-  },
-  {
-    "kanji": "先進",
-    "reading": "せんしん"
-  },
-  {
-    "kanji": "医療",
-    "reading": "いりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "誤嚥",
-    "reading": "ごえん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "要",
-    "reading": "よう"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "状態",
-    "reading": "じょうたい"
-  },
-  {
-    "kanji": "発現",
-    "reading": "はつげん"
-  },
-  {
-    "kanji": "危険",
-    "reading": "きけん"
-  },
-  {
-    "kanji": "因子",
-    "reading": "いんし"
-  },
-  {
-    "kanji": "高知県",
-    "reading": "こうちけん"
-  },
-  {
-    "kanji": "香北町",
-    "reading": "かほくちょう"
-  },
-  {
-    "kanji": "縦断",
-    "reading": "じゅうだん"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "呼吸器",
-    "reading": "こきゅうき"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "診療",
-    "reading": "しんりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "脳血管",
-    "reading": "のうけっかん"
-  },
-  {
-    "kanji": "障害",
-    "reading": "しょうがい"
-  },
-  {
-    "kanji": "最新",
-    "reading": "さいしん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者虚血性",
-    "reading": "こうれいしゃきょけつせい"
-  },
-  {
-    "kanji": "心疾患",
-    "reading": "しんしっかん"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "教育",
-    "reading": "きょういく"
-  },
-  {
-    "kanji": "講演",
-    "reading": "こうえん"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "高血圧",
-    "reading": "こうけつあつ"
-  },
-  {
-    "kanji": "治療",
-    "reading": "ちりょう"
-  },
-  {
-    "kanji": "本邦",
-    "reading": "ほんぽう"
-  },
-  {
-    "kanji": "循環器",
-    "reading": "じゅんかんき"
-  },
-  {
-    "kanji": "疾患",
-    "reading": "しっかん"
-  },
-  {
-    "kanji": "疫学",
-    "reading": "えきがく"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "糖尿病",
-    "reading": "とうにょうびょう"
-  },
-  {
-    "kanji": "今後",
-    "reading": "こんご"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "方向性",
-    "reading": "ほうこうせい"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "高血圧",
-    "reading": "こうけつあつ"
-  },
-  {
-    "kanji": "相対的",
-    "reading": "そうたいてき"
-  },
-  {
-    "kanji": "低血圧",
-    "reading": "ていけつあつ"
-  },
-  {
-    "kanji": "高血圧",
-    "reading": "こうけつあつ"
-  },
-  {
-    "kanji": "血管",
-    "reading": "けっかん"
-  },
-  {
-    "kanji": "在宅",
-    "reading": "ざいたく"
-  },
-  {
-    "kanji": "要",
-    "reading": "よう"
-  },
-  {
-    "kanji": "介護",
-    "reading": "かいご"
-  },
-  {
-    "kanji": "高齢者",
-    "reading": "こうれいしゃ"
-  },
-  {
-    "kanji": "薬剤",
-    "reading": "やくざい"
-  },
-  {
-    "kanji": "供給",
-    "reading": "きょうきゅう"
-  },
-  {
-    "kanji": "方法",
-    "reading": "ほうほう"
-  },
-  {
-    "kanji": "薬剤",
-    "reading": "やくざい"
-  },
-  {
-    "kanji": "知識",
-    "reading": "ちしき"
-  },
-  {
-    "kanji": "服薬",
-    "reading": "ふくやく"
-  },
-  {
-    "kanji": "予後",
-    "reading": "よご"
-  },
-  {
-    "kanji": "慢性期",
-    "reading": "まんせいき"
-  },
-  {
-    "kanji": "脳梗塞",
-    "reading": "のうこうそく"
-  },
-  {
-    "kanji": "患者",
-    "reading": "かんじゃ"
-  },
-  {
-    "kanji": "嚥下",
-    "reading": "えんげ"
-  },
-  {
-    "kanji": "機能",
-    "reading": "きのう"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "頭部",
-    "reading": "とうぶ"
-  },
-  {
-    "kanji": "CT",
-    "reading": "CT"
-  },
-  {
-    "kanji": "所見",
-    "reading": "しょけん"
-  },
-  {
-    "kanji": "痴呆性",
-    "reading": "ちほうせい"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "動物",
-    "reading": "どうぶつ"
-  },
-  {
-    "kanji": "介在",
-    "reading": "かいざい"
-  },
-  {
-    "kanji": "療法",
-    "reading": "りょうほう"
-  },
-  {
-    "kanji": "試",
-    "reading": "こころ"
-  },
-  {
-    "kanji": "評価",
-    "reading": "ひょうか"
-  },
-  {
-    "kanji": "方法",
-    "reading": "ほうほう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "同一",
-    "reading": "どういつ"
-  },
-  {
-    "kanji": "経営",
-    "reading": "けいえい"
-  },
-  {
-    "kanji": "母体",
-    "reading": "ぼたい"
-  },
-  {
-    "kanji": "同",
-    "reading": "どう"
-  },
-  {
-    "kanji": "規模",
-    "reading": "きぼ"
-  },
-  {
-    "kanji": "2",
-    "reading": "2"
-  },
-  {
-    "kanji": "ヵ所",
-    "reading": "かしょ"
-  },
-  {
-    "kanji": "特別",
-    "reading": "とくべつ"
-  },
-  {
-    "kanji": "養護",
-    "reading": "ようご"
-  },
-  {
-    "kanji": "老人",
-    "reading": "ろうじん"
-  },
-  {
-    "kanji": "outcome",
-    "reading": "outcome"
-  },
-  {
-    "kanji": "比較",
-    "reading": "ひかく"
-  },
-  {
-    "kanji": "入所者",
-    "reading": "にゅうしょしゃ"
-  },
-  {
-    "kanji": "死亡",
-    "reading": "しぼう"
-  },
-  {
-    "kanji": "入院",
-    "reading": "にゅういん"
-  },
-  {
-    "kanji": "状況",
-    "reading": "じょうきょう"
-  },
-  {
-    "kanji": "関",
-    "reading": "かん"
-  },
-  {
-    "kanji": "検討",
-    "reading": "けんとう"
-  },
-  {
-    "kanji": "X",
-    "reading": "X"
-  },
-  {
-    "kanji": "線画像",
-    "reading": "せんがぞう"
-  },
-  {
-    "kanji": "空間",
-    "reading": "くうかん"
-  },
-  {
-    "kanji": "周波数",
-    "reading": "しゅうはすう"
-  },
-  {
-    "kanji": "解析",
-    "reading": "かいせき"
-  },
-  {
-    "kanji": "用",
-    "reading": "もち"
-  },
-  {
-    "kanji": "骨",
-    "reading": "ほね"
-  },
-  {
-    "kanji": "構造",
-    "reading": "こうぞう"
-  },
-  {
-    "kanji": "定量化",
-    "reading": "ていりょうか"
-  },
-  {
-    "kanji": "試",
-    "reading": "こころ"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "11",
-    "reading": "11"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "近畿",
-    "reading": "きんき"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "日本",
-    "reading": "にほん"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学会",
-    "reading": "いがくかい"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "記録",
-    "reading": "きろく"
-  },
-  {
-    "kanji": "第",
-    "reading": "だい"
-  },
-  {
-    "kanji": "12",
-    "reading": "12"
-  },
-  {
-    "kanji": "回",
-    "reading": "かい"
-  },
-  {
-    "kanji": "中国",
-    "reading": "ちゅうごく"
-  },
-  {
-    "kanji": "地方会",
-    "reading": "ちほうかい"
-  },
-  {
-    "kanji": "病",
-    "reading": "びょう"
-  },
-  {
-    "kanji": "研究",
-    "reading": "けんきゅう"
-  },
-  {
-    "kanji": "進歩",
-    "reading": "しんぽ"
-  },
-  {
-    "kanji": "老年",
-    "reading": "ろうねん"
-  },
-  {
-    "kanji": "医学",
-    "reading": "いがく"
-  },
-  {
-    "kanji": "展望",
-    "reading": "てんぼう"
-  }
+    {
+        "kanji": "漢字"
+    },
+    {
+        "kanji": "寿者"
+    },
+    {
+        "kanji": "研究"
+    },
+    {
+        "kanji": "示唆"
+    },
+    {
+        "kanji": "記号"
+    },
+    {
+        "kanji": "加齢"
+    },
+    {
+        "kanji": "炎症"
+    },
+    {
+        "kanji": "行番号"
+    },
+    {
+        "kanji": "市民公開講座"
+    },
+    {
+        "kanji": "介護保険"
+    },
+    {
+        "kanji": "高齢者医療"
+    },
+    {
+        "kanji": "仙台"
+    },
+    {
+        "kanji": "介護保険元年"
+    },
+    {
+        "kanji": "入力文"
+    },
+    {
+        "kanji": "入力"
+    },
+    {
+        "kanji": "市民"
+    },
+    {
+        "kanji": "公開"
+    },
+    {
+        "kanji": "講座"
+    },
+    {
+        "kanji": "半角数字"
+    },
+    {
+        "kanji": "介護"
+    },
+    {
+        "kanji": "保険"
+    },
+    {
+        "kanji": "高齢者"
+    },
+    {
+        "kanji": "医療"
+    },
+    {
+        "kanji": "元年"
+    },
+    {
+        "kanji": "介護保険制度"
+    },
+    {
+        "kanji": "制度"
+    },
+    {
+        "kanji": "標準化"
+    },
+    {
+        "kanji": "介護保険対象外"
+    },
+    {
+        "kanji": "利用者"
+    },
+    {
+        "kanji": "支援"
+    },
+    {
+        "kanji": "対象"
+    },
+    {
+        "kanji": "日本"
+    },
+    {
+        "kanji": "総合的機能評価"
+    },
+    {
+        "kanji": "知識"
+    },
+    {
+        "kanji": "利用及"
+    },
+    {
+        "kanji": "主治医意見書"
+    },
+    {
+        "kanji": "日本老年医学会教育認定施設"
+    },
+    {
+        "kanji": "療養型病床群"
+    },
+    {
+        "kanji": "老人保健施設"
+    },
+    {
+        "kanji": "多施設共同調査"
+    },
+    {
+        "kanji": "総合的"
+    },
+    {
+        "kanji": "機能"
+    },
+    {
+        "kanji": "評価"
+    },
+    {
+        "kanji": "利用"
+    },
+    {
+        "kanji": "主治医"
+    },
+    {
+        "kanji": "意見書"
+    },
+    {
+        "kanji": "老年"
+    },
+    {
+        "kanji": "医学会"
+    },
+    {
+        "kanji": "教育"
+    },
+    {
+        "kanji": "認定"
+    },
+    {
+        "kanji": "施設"
+    },
+    {
+        "kanji": "療養型"
+    },
+    {
+        "kanji": "病床群"
+    },
+    {
+        "kanji": "老人"
+    },
+    {
+        "kanji": "保健"
+    },
+    {
+        "kanji": "多施設"
+    },
+    {
+        "kanji": "共同"
+    },
+    {
+        "kanji": "調査"
+    },
+    {
+        "kanji": "在宅医療"
+    },
+    {
+        "kanji": "看護"
+    },
+    {
+        "kanji": "在宅"
+    },
+    {
+        "kanji": "介護保険下"
+    },
+    {
+        "kanji": "有効活用"
+    },
+    {
+        "kanji": "連携"
+    },
+    {
+        "kanji": "有効"
+    },
+    {
+        "kanji": "活用"
+    },
+    {
+        "kanji": "訪問看護"
+    },
+    {
+        "kanji": "訪問"
+    },
+    {
+        "kanji": "百寿者"
+    },
+    {
+        "kanji": "長寿老人"
+    },
+    {
+        "kanji": "老年医学"
+    },
+    {
+        "kanji": "英文字"
+    },
+    {
+        "kanji": "寿老人"
+    },
+    {
+        "kanji": "医学"
+    },
+    {
+        "kanji": "長寿地域沖縄"
+    },
+    {
+        "kanji": "風土"
+    },
+    {
+        "kanji": "生活習慣"
+    },
+    {
+        "kanji": "長寿"
+    },
+    {
+        "kanji": "地域"
+    },
+    {
+        "kanji": "沖縄"
+    },
+    {
+        "kanji": "生活"
+    },
+    {
+        "kanji": "習慣"
+    },
+    {
+        "kanji": "長寿関連遺伝子"
+    },
+    {
+        "kanji": "関連"
+    },
+    {
+        "kanji": "遺伝子"
+    },
+    {
+        "kanji": "病理学"
+    },
+    {
+        "kanji": "長寿者"
+    },
+    {
+        "kanji": "生理学的条件"
+    },
+    {
+        "kanji": "生理学的"
+    },
+    {
+        "kanji": "条件"
+    },
+    {
+        "kanji": "老年者高脂血症"
+    },
+    {
+        "kanji": "依存性血小板凝集抑制"
+    },
+    {
+        "kanji": "異常"
+    },
+    {
+        "kanji": "老年者"
+    },
+    {
+        "kanji": "高脂血症"
+    },
+    {
+        "kanji": "依存性"
+    },
+    {
+        "kanji": "血小板"
+    },
+    {
+        "kanji": "凝集"
+    },
+    {
+        "kanji": "抑制"
+    },
+    {
+        "kanji": "痴呆性老人"
+    },
+    {
+        "kanji": "精神"
+    },
+    {
+        "kanji": "身体状況"
+    },
+    {
+        "kanji": "施設入所後"
+    },
+    {
+        "kanji": "年間"
+    },
+    {
+        "kanji": "変化"
+    },
+    {
+        "kanji": "検討"
+    },
+    {
+        "kanji": "痴呆性"
+    },
+    {
+        "kanji": "身体"
+    },
+    {
+        "kanji": "状況"
+    },
+    {
+        "kanji": "入所"
+    },
+    {
+        "kanji": "記憶機能"
+    },
+    {
+        "kanji": "神経心理学的検査"
+    },
+    {
+        "kanji": "脳血流"
+    },
+    {
+        "kanji": "記憶"
+    },
+    {
+        "kanji": "神経"
+    },
+    {
+        "kanji": "心理学的"
+    },
+    {
+        "kanji": "検査"
+    },
+    {
+        "kanji": "血流"
+    },
+    {
+        "kanji": "音楽療法"
+    },
+    {
+        "kanji": "細胞活性及"
+    },
+    {
+        "kanji": "細胞数"
+    },
+    {
+        "kanji": "音楽"
+    },
+    {
+        "kanji": "療法"
+    },
+    {
+        "kanji": "細胞"
+    },
+    {
+        "kanji": "活性"
+    },
+    {
+        "kanji": "特養"
+    },
+    {
+        "kanji": "入所者"
+    },
+    {
+        "kanji": "向上"
+    },
+    {
+        "kanji": "目的"
+    },
+    {
+        "kanji": "鍼灸治療"
+    },
+    {
+        "kanji": "鍼灸"
+    },
+    {
+        "kanji": "治療"
+    },
+    {
+        "kanji": "医学生"
+    },
+    {
+        "kanji": "終末期医療"
+    },
+    {
+        "kanji": "問題"
+    },
+    {
+        "kanji": "意識調査"
+    },
+    {
+        "kanji": "質的分析法"
+    },
+    {
+        "kanji": "意識構造"
+    },
+    {
+        "kanji": "終末期"
+    },
+    {
+        "kanji": "意識"
+    },
+    {
+        "kanji": "質的"
+    },
+    {
+        "kanji": "分析法"
+    },
+    {
+        "kanji": "構造"
+    },
+    {
+        "kanji": "日本老年医学会地方会記録第"
+    },
+    {
+        "kanji": "回東北地方会"
+    },
+    {
+        "kanji": "地方会"
+    },
+    {
+        "kanji": "記録"
+    },
+    {
+        "kanji": "東北"
+    },
+    {
+        "kanji": "回北陸地方会"
+    },
+    {
+        "kanji": "北陸"
+    },
+    {
+        "kanji": "回日本老年学会総会"
+    },
+    {
+        "kanji": "回日本老年医学会"
+    },
+    {
+        "kanji": "学術集会講演抄録集"
+    },
+    {
+        "kanji": "学会"
+    },
+    {
+        "kanji": "総会"
+    },
+    {
+        "kanji": "学術"
+    },
+    {
+        "kanji": "集会"
+    },
+    {
+        "kanji": "講演"
+    },
+    {
+        "kanji": "抄録集"
+    },
+    {
+        "kanji": "用語"
+    },
+    {
+        "kanji": "大動脈疾患"
+    },
+    {
+        "kanji": "腹部大動脈瘤"
+    },
+    {
+        "kanji": "病態"
+    },
+    {
+        "kanji": "大動脈"
+    },
+    {
+        "kanji": "疾患"
+    },
+    {
+        "kanji": "腹部"
+    },
+    {
+        "kanji": "動脈瘤"
+    },
+    {
+        "kanji": "展望難聴"
+    },
+    {
+        "kanji": "分子医学"
+    },
+    {
+        "kanji": "展望"
+    },
+    {
+        "kanji": "難聴"
+    },
+    {
+        "kanji": "分子"
+    },
+    {
+        "kanji": "回日本老年医学会学術集会記録"
+    },
+    {
+        "kanji": "感染性心内膜炎"
+    },
+    {
+        "kanji": "感染性心"
+    },
+    {
+        "kanji": "膜炎"
+    },
+    {
+        "kanji": "動脈硬化"
+    },
+    {
+        "kanji": "遺伝子治療"
+    },
+    {
+        "kanji": "可能性"
+    },
+    {
+        "kanji": "動脈"
+    },
+    {
+        "kanji": "硬化"
+    },
+    {
+        "kanji": "老年者糖尿病"
+    },
+    {
+        "kanji": "経口血糖降下薬療法"
+    },
+    {
+        "kanji": "糖尿病"
+    },
+    {
+        "kanji": "経口"
+    },
+    {
+        "kanji": "血糖"
+    },
+    {
+        "kanji": "降下薬"
+    },
+    {
+        "kanji": "関連問題"
+    },
+    {
+        "kanji": "現状"
+    },
+    {
+        "kanji": "臨床"
+    },
+    {
+        "kanji": "問題点"
+    },
+    {
+        "kanji": "動脈硬化性疾患"
+    },
+    {
+        "kanji": "予防"
+    },
+    {
+        "kanji": "硬化性"
+    },
+    {
+        "kanji": "頸動脈硬化"
+    },
+    {
+        "kanji": "頸動脈"
+    },
+    {
+        "kanji": "若手企画"
+    },
+    {
+        "kanji": "高齢者呼吸器疾患"
+    },
+    {
+        "kanji": "新戦略"
+    },
+    {
+        "kanji": "若手"
+    },
+    {
+        "kanji": "企画"
+    },
+    {
+        "kanji": "呼吸器"
+    },
+    {
+        "kanji": "戦略"
+    },
+    {
+        "kanji": "高齢者慢性閉塞性肺疾患"
+    },
+    {
+        "kanji": "総合的内科治療"
+    },
+    {
+        "kanji": "包括的呼吸"
+    },
+    {
+        "kanji": "課題"
+    },
+    {
+        "kanji": "慢性"
+    },
+    {
+        "kanji": "閉塞性"
+    },
+    {
+        "kanji": "内科"
+    },
+    {
+        "kanji": "包括的"
+    },
+    {
+        "kanji": "呼吸"
+    },
+    {
+        "kanji": "市中肺炎"
+    },
+    {
+        "kanji": "肺結核"
+    },
+    {
+        "kanji": "進歩"
+    },
+    {
+        "kanji": "市中"
+    },
+    {
+        "kanji": "肺炎"
+    },
+    {
+        "kanji": "高齢者肺癌"
+    },
+    {
+        "kanji": "内科的新"
+    },
+    {
+        "kanji": "治療法"
+    },
+    {
+        "kanji": "肺癌"
+    },
+    {
+        "kanji": "内科的"
+    },
+    {
+        "kanji": "高齢化社会"
+    },
+    {
+        "kanji": "実現"
+    },
+    {
+        "kanji": "介護機器"
+    },
+    {
+        "kanji": "住宅"
+    },
+    {
+        "kanji": "高齢化"
+    },
+    {
+        "kanji": "社会"
+    },
+    {
+        "kanji": "機器"
+    },
+    {
+        "kanji": "介護用"
+    },
+    {
+        "kanji": "将来"
+    },
+    {
+        "kanji": "日常生活活動"
+    },
+    {
+        "kanji": "日常"
+    },
+    {
+        "kanji": "活動"
+    },
+    {
+        "kanji": "水沢"
+    },
+    {
+        "kanji": "独居高齢者"
+    },
+    {
+        "kanji": "独居"
+    },
+    {
+        "kanji": "施設介護機器"
+    },
+    {
+        "kanji": "余命"
+    },
+    {
+        "kanji": "活動的余命"
+    },
+    {
+        "kanji": "活動的"
+    },
+    {
+        "kanji": "地域高齢者"
+    },
+    {
+        "kanji": "規定要因"
+    },
+    {
+        "kanji": "学際的縦断研究"
+    },
+    {
+        "kanji": "規定"
+    },
+    {
+        "kanji": "要因"
+    },
+    {
+        "kanji": "学際的"
+    },
+    {
+        "kanji": "縦断"
+    },
+    {
+        "kanji": "実態"
+    },
+    {
+        "kanji": "生物学的余命"
+    },
+    {
+        "kanji": "生物学的"
+    },
+    {
+        "kanji": "診断"
+    },
+    {
+        "kanji": "症状"
+    },
+    {
+        "kanji": "改訂"
+    },
+    {
+        "kanji": "有効性"
+    },
+    {
+        "kanji": "脂質代謝"
+    },
+    {
+        "kanji": "影響"
+    },
+    {
+        "kanji": "脂質"
+    },
+    {
+        "kanji": "代謝"
+    },
+    {
+        "kanji": "老年者介護"
+    },
+    {
+        "kanji": "家族負担度"
+    },
+    {
+        "kanji": "問題行動"
+    },
+    {
+        "kanji": "介護者自身"
+    },
+    {
+        "kanji": "家族"
+    },
+    {
+        "kanji": "負担度"
+    },
+    {
+        "kanji": "行動"
+    },
+    {
+        "kanji": "介護者"
+    },
+    {
+        "kanji": "自身"
+    },
+    {
+        "kanji": "重度痴呆患者"
+    },
+    {
+        "kanji": "行動再習慣化"
+    },
+    {
+        "kanji": "重度"
+    },
+    {
+        "kanji": "痴呆"
+    },
+    {
+        "kanji": "患者"
+    },
+    {
+        "kanji": "再習慣化"
+    },
+    {
+        "kanji": "抗酸化能"
+    },
+    {
+        "kanji": "高齢者介護"
+    },
+    {
+        "kanji": "医学部新入生"
+    },
+    {
+        "kanji": "他学部新入生"
+    },
+    {
+        "kanji": "比較"
+    },
+    {
+        "kanji": "医学部"
+    },
+    {
+        "kanji": "新入生"
+    },
+    {
+        "kanji": "学部"
+    },
+    {
+        "kanji": "型老年痴呆"
+    },
+    {
+        "kanji": "痴呆問題行動"
+    },
+    {
+        "kanji": "身体障害度"
+    },
+    {
+        "kanji": "家族介護負担度"
+    },
+    {
+        "kanji": "障害度"
+    },
+    {
+        "kanji": "高齢糖尿病患者"
+    },
+    {
+        "kanji": "認知機能"
+    },
+    {
+        "kanji": "脳萎縮"
+    },
+    {
+        "kanji": "高齢非糖尿病患者"
+    },
+    {
+        "kanji": "高齢"
+    },
+    {
+        "kanji": "認知"
+    },
+    {
+        "kanji": "萎縮"
+    },
+    {
+        "kanji": "非糖尿病"
+    },
+    {
+        "kanji": "糖尿病教育入院"
+    },
+    {
+        "kanji": "心理的評価"
+    },
+    {
+        "kanji": "入院"
+    },
+    {
+        "kanji": "心理的"
+    },
+    {
+        "kanji": "訪問診療対象高齢患者"
+    },
+    {
+        "kanji": "在宅死"
+    },
+    {
+        "kanji": "可能"
+    },
+    {
+        "kanji": "因子"
+    },
+    {
+        "kanji": "診療"
+    },
+    {
+        "kanji": "日本老年医学会用語集"
+    },
+    {
+        "kanji": "用語集"
+    },
+    {
+        "kanji": "関節疾患"
+    },
+    {
+        "kanji": "関節"
+    },
+    {
+        "kanji": "展望生体防御機構"
+    },
+    {
+        "kanji": "生体"
+    },
+    {
+        "kanji": "防御"
+    },
+    {
+        "kanji": "機構"
+    },
+    {
+        "kanji": "脳血管性痴呆"
+    },
+    {
+        "kanji": "脳血管性"
+    },
+    {
+        "kanji": "酸化"
+    },
+    {
+        "kanji": "高齢者糖尿病"
+    },
+    {
+        "kanji": "発症機構"
+    },
+    {
+        "kanji": "蛋白"
+    },
+    {
+        "kanji": "中心"
+    },
+    {
+        "kanji": "発症"
+    },
+    {
+        "kanji": "中核病院"
+    },
+    {
+        "kanji": "立場"
+    },
+    {
+        "kanji": "中核"
+    },
+    {
+        "kanji": "病院"
+    },
+    {
+        "kanji": "口腔"
+    },
+    {
+        "kanji": "在宅要介護高齢者"
+    },
+    {
+        "kanji": "訪問歯科診療"
+    },
+    {
+        "kanji": "歯科"
+    },
+    {
+        "kanji": "口腔状況"
+    },
+    {
+        "kanji": "要介護者"
+    },
+    {
+        "kanji": "特別発言歯"
+    },
+    {
+        "kanji": "必要"
+    },
+    {
+        "kanji": "肺炎予防"
+    },
+    {
+        "kanji": "追跡調査結果"
+    },
+    {
+        "kanji": "特別"
+    },
+    {
+        "kanji": "発言"
+    },
+    {
+        "kanji": "追跡"
+    },
+    {
+        "kanji": "結果"
+    },
+    {
+        "kanji": "老化"
+    },
+    {
+        "kanji": "老年医学研究基金"
+    },
+    {
+        "kanji": "年度受賞者講演"
+    },
+    {
+        "kanji": "基金"
+    },
+    {
+        "kanji": "年度"
+    },
+    {
+        "kanji": "受賞者"
+    },
+    {
+        "kanji": "老年者呼吸器疾患"
+    },
+    {
+        "kanji": "急性増悪"
+    },
+    {
+        "kanji": "早期診断法"
+    },
+    {
+        "kanji": "開発"
+    },
+    {
+        "kanji": "気管支喘息"
+    },
+    {
+        "kanji": "急性"
+    },
+    {
+        "kanji": "増悪"
+    },
+    {
+        "kanji": "早期"
+    },
+    {
+        "kanji": "診断法"
+    },
+    {
+        "kanji": "気管支"
+    },
+    {
+        "kanji": "喘息"
+    },
+    {
+        "kanji": "血管内皮機能障害"
+    },
+    {
+        "kanji": "機序"
+    },
+    {
+        "kanji": "血管"
+    },
+    {
+        "kanji": "内皮"
+    },
+    {
+        "kanji": "障害"
+    },
+    {
+        "kanji": "孤発性"
+    },
+    {
+        "kanji": "病因"
+    },
+    {
+        "kanji": "探索"
+    },
+    {
+        "kanji": "骨粗鬆症予防"
+    },
+    {
+        "kanji": "骨粗鬆症"
+    },
+    {
+        "kanji": "遺伝子変異"
+    },
+    {
+        "kanji": "高齢発症"
+    },
+    {
+        "kanji": "変異"
+    },
+    {
+        "kanji": "型糖尿病患者"
+    },
+    {
+        "kanji": "脳血管障害発症"
+    },
+    {
+        "kanji": "血症"
+    },
+    {
+        "kanji": "追跡調査"
+    },
+    {
+        "kanji": "脳血管"
+    },
+    {
+        "kanji": "作成"
+    },
+    {
+        "kanji": "大腿骨頸部骨折術後"
+    },
+    {
+        "kanji": "長期"
+    },
+    {
+        "kanji": "短期"
+    },
+    {
+        "kanji": "比較検討"
+    },
+    {
+        "kanji": "大腿骨"
+    },
+    {
+        "kanji": "頸部"
+    },
+    {
+        "kanji": "骨折"
+    },
+    {
+        "kanji": "術後"
+    },
+    {
+        "kanji": "吸入抗"
+    },
+    {
+        "kanji": "肺機能"
+    },
+    {
+        "kanji": "効果"
+    },
+    {
+        "kanji": "吸入"
+    },
+    {
+        "kanji": "腰痛"
+    },
+    {
+        "kanji": "下肢痛"
+    },
+    {
+        "kanji": "鍼治療"
+    },
+    {
+        "kanji": "老人病院"
+    },
+    {
+        "kanji": "理学療法室"
+    },
+    {
+        "kanji": "理学"
+    },
+    {
+        "kanji": "療法室"
+    },
+    {
+        "kanji": "痴呆相談室"
+    },
+    {
+        "kanji": "痴呆医療"
+    },
+    {
+        "kanji": "相談室"
+    },
+    {
+        "kanji": "都市在住高齢者"
+    },
+    {
+        "kanji": "転倒"
+    },
+    {
+        "kanji": "転落事故"
+    },
+    {
+        "kanji": "救急搬送事例"
+    },
+    {
+        "kanji": "都市"
+    },
+    {
+        "kanji": "在住"
+    },
+    {
+        "kanji": "転落"
+    },
+    {
+        "kanji": "事故"
+    },
+    {
+        "kanji": "救急"
+    },
+    {
+        "kanji": "搬送"
+    },
+    {
+        "kanji": "事例"
+    },
+    {
+        "kanji": "日本老年医学会地方会記録"
+    },
+    {
+        "kanji": "回関東甲信越地方会"
+    },
+    {
+        "kanji": "関東"
+    },
+    {
+        "kanji": "甲信越地方会"
+    },
+    {
+        "kanji": "回東海地方会"
+    },
+    {
+        "kanji": "東海"
+    },
+    {
+        "kanji": "回東海地方支部講演会"
+    },
+    {
+        "kanji": "地方"
+    },
+    {
+        "kanji": "支部"
+    },
+    {
+        "kanji": "講演会"
+    },
+    {
+        "kanji": "日本老年医学会"
+    },
+    {
+        "kanji": "立場表明"
+    },
+    {
+        "kanji": "表明"
+    },
+    {
+        "kanji": "経緯"
+    },
+    {
+        "kanji": "高齢社会"
+    },
+    {
+        "kanji": "成年後見制度"
+    },
+    {
+        "kanji": "成年"
+    },
+    {
+        "kanji": "後見"
+    },
+    {
+        "kanji": "蛋白異常症"
+    },
+    {
+        "kanji": "異常症"
+    },
+    {
+        "kanji": "会長講演老年病"
+    },
+    {
+        "kanji": "先進医療"
+    },
+    {
+        "kanji": "会長"
+    },
+    {
+        "kanji": "老年病"
+    },
+    {
+        "kanji": "先進"
+    },
+    {
+        "kanji": "教育講演高齢者誤嚥"
+    },
+    {
+        "kanji": "誤嚥"
+    },
+    {
+        "kanji": "教育講演要介護状態発現"
+    },
+    {
+        "kanji": "危険因子"
+    },
+    {
+        "kanji": "高知県"
+    },
+    {
+        "kanji": "香北町縦断研究"
+    },
+    {
+        "kanji": "状態"
+    },
+    {
+        "kanji": "発現"
+    },
+    {
+        "kanji": "危険"
+    },
+    {
+        "kanji": "香北町"
+    },
+    {
+        "kanji": "教育講演高齢者呼吸器疾患"
+    },
+    {
+        "kanji": "教育講演高齢者脳血管障害"
+    },
+    {
+        "kanji": "最新治療"
+    },
+    {
+        "kanji": "最新"
+    },
+    {
+        "kanji": "教育講演高齢者虚血性心疾患"
+    },
+    {
+        "kanji": "高齢者虚血性"
+    },
+    {
+        "kanji": "心疾患"
+    },
+    {
+        "kanji": "教育講演高齢者高血圧"
+    },
+    {
+        "kanji": "高血圧"
+    },
+    {
+        "kanji": "本邦循環器疾患"
+    },
+    {
+        "kanji": "疫学"
+    },
+    {
+        "kanji": "本邦"
+    },
+    {
+        "kanji": "循環器"
+    },
+    {
+        "kanji": "今後"
+    },
+    {
+        "kanji": "方向性"
+    },
+    {
+        "kanji": "高齢者高血圧"
+    },
+    {
+        "kanji": "相対的低血圧"
+    },
+    {
+        "kanji": "相対的"
+    },
+    {
+        "kanji": "低血圧"
+    },
+    {
+        "kanji": "薬剤供給方法"
+    },
+    {
+        "kanji": "薬剤知識"
+    },
+    {
+        "kanji": "服薬"
+    },
+    {
+        "kanji": "薬剤"
+    },
+    {
+        "kanji": "供給"
+    },
+    {
+        "kanji": "方法"
+    },
+    {
+        "kanji": "予後"
+    },
+    {
+        "kanji": "慢性期脳梗塞患者"
+    },
+    {
+        "kanji": "嚥下機能評価"
+    },
+    {
+        "kanji": "頭部"
+    },
+    {
+        "kanji": "所見"
+    },
+    {
+        "kanji": "慢性期"
+    },
+    {
+        "kanji": "脳梗塞"
+    },
+    {
+        "kanji": "嚥下"
+    },
+    {
+        "kanji": "動物介在療法"
+    },
+    {
+        "kanji": "評価方法"
+    },
+    {
+        "kanji": "動物"
+    },
+    {
+        "kanji": "介在"
+    },
+    {
+        "kanji": "同一経営母体"
+    },
+    {
+        "kanji": "同規模"
+    },
+    {
+        "kanji": "特別養護老人"
+    },
+    {
+        "kanji": "死亡"
+    },
+    {
+        "kanji": "入院状況"
+    },
+    {
+        "kanji": "同一"
+    },
+    {
+        "kanji": "経営"
+    },
+    {
+        "kanji": "母体"
+    },
+    {
+        "kanji": "規模"
+    },
+    {
+        "kanji": "養護"
+    },
+    {
+        "kanji": "線画像"
+    },
+    {
+        "kanji": "空間周波数解析"
+    },
+    {
+        "kanji": "骨構造定量化"
+    },
+    {
+        "kanji": "空間"
+    },
+    {
+        "kanji": "周波数"
+    },
+    {
+        "kanji": "解析"
+    },
+    {
+        "kanji": "定量化"
+    },
+    {
+        "kanji": "回近畿地方会"
+    },
+    {
+        "kanji": "近畿"
+    },
+    {
+        "kanji": "回中国地方会"
+    },
+    {
+        "kanji": "中国"
+    },
+    {
+        "kanji": "病研究"
+    },
+    {
+        "kanji": "展望老化"
+    },
+    {
+        "kanji": "寿命"
+    }
 ]
