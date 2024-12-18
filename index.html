@@ -14,129 +14,177 @@
             margin: 0;
             padding: 0;
         }
-        .title-screen {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: linear-gradient(135deg, #ff9f68, #ff6f61);
+
+        header {
+            background: #ff6f61;
             color: #fff;
-            animation: fadeIn 2s;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        .title-screen h1 {
-            font-size: 4em;
-            margin-bottom: 20px;
-            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-        }
-        .title-screen p {
+            padding: 15px;
             font-size: 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+            background-color: #ff9f68;
+            border-radius: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 15px;
+            background-color: #ff6f61;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff3f3f;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
             margin-bottom: 30px;
         }
-        .title-screen button {
-            padding: 15px 40px;
-            font-size: 1.5em;
-            background-color: #ff3f3f;
+
+        h2 {
+            font-size: 2em;
+            color: #ff6f61;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            font-size: 1.2em;
+            border: 2px solid #ff9f68;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #ff9f68;
             color: #fff;
             border: none;
-            border-radius: 50px;
+            padding: 12px 20px;
+            font-size: 1.2em;
+            border-radius: 20px;
             cursor: pointer;
-            transition: background-color 0.3s, transform 0.3s;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s, transform 0.2s;
         }
-        .title-screen button:hover {
-            background-color: #e62e2e;
-            transform: scale(1.1);
+
+        button:hover {
+            background: #ff3f3f;
+            transform: scale(1.05);
         }
-        .content {
-            display: none;
-            animation: slideIn 1s;
-        }
-        @keyframes slideIn {
-            from {
-                transform: translateY(100%);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-        .correct-feedback {
-            color: green;
+
+        #feedback {
             font-size: 1.5em;
-            font-weight: bold;
-            animation: bounce 1s;
+            margin-top: 20px;
         }
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
-                transform: translateY(0);
-            }
-            40% {
-                transform: translateY(-20px);
-            }
-            60% {
-                transform: translateY(-10px);
-            }
+
+        canvas {
+            display: block;
+            margin: 20px auto;
+            background-color: #f0f8ff;
+            border: 2px solid #ff9f68;
         }
-        .emoji {
-            font-size: 2em;
-            margin-top: 10px;
+
+        #history-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        #history-list li {
+            background-color: #ffefef;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="title-screen">
+    <header>
         <h1>漢字学習アプリ</h1>
-        <p>楽しく漢字を覚えよう！</p>
-        <button id="start-button">ゲームを始める</button>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="#practice">練習</a></li>
+                <li><a href="#quiz">クイズ</a></li>
+                <li><a href="#history">学習履歴</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="content" id="main-content">
-        <header>
-            <h1>漢字学習アプリ</h1>
-            <nav>
-                <ul>
-                    <li><a href="#practice">練習</a></li>
-                    <li><a href="#quiz">クイズ</a></li>
-                    <li><a href="#history">学習履歴</a></li>
-                </ul>
-            </nav>
-        </header>
+    <main>
+        <!-- 書き取り練習セクション -->
+        <section id="practice">
+            <h2>漢字書き取り練習</h2>
+            <p>次の漢字を書いてみましょう: <strong id="practice-kanji">木</strong></p>
+            <canvas id="practice-canvas" width="300" height="150"></canvas>
+            <button id="clear-canvas">クリア</button>
+        </section>
 
-        <main>
-            <section id="quiz">
-                <h2>漢字の読み方クイズ</h2>
-                <p>次の漢字の読みを入力してください: <strong id="quiz-kanji">日</strong></p>
-                <input type="text" id="reading-input" placeholder="読み方を入力">
-                <button id="submit-answer">答え合わせ</button>
-                <p id="feedback"></p>
-            </section>
-        </main>
+        <!-- 漢字クイズセクション -->
+        <section id="quiz">
+            <h2>漢字の読み方クイズ</h2>
+            <p>次の漢字の読みを入力してください: <strong id="quiz-kanji">日</strong></p>
+            <input type="text" id="reading-input" placeholder="読み方を入力">
+            <button id="submit-answer">答え合わせ</button>
+            <p id="feedback"></p>
+        </section>
 
-        <footer>
-            <p>&copy; 2024 漢字学習アプリ</p>
-        </footer>
-    </div>
+        <!-- 学習履歴セクション -->
+        <section id="history">
+            <h2>学習履歴</h2>
+            <ul id="history-list">
+                <li>まだ学習履歴がありません。</li>
+            </ul>
+        </section>
+    </main>
 
     <script>
-        const startButton = document.getElementById('start-button');
-        const titleScreen = document.querySelector('.title-screen');
-        const mainContent = document.getElementById('main-content');
+        // 書き取り練習のCanvas機能
+        const canvas = document.getElementById('practice-canvas');
+        const clearButton = document.getElementById('clear-canvas');
+        const ctx = canvas.getContext('2d');
+        let isDrawing = false;
 
-        startButton.addEventListener('click', () => {
-            titleScreen.style.display = 'none';
-            mainContent.style.display = 'block';
-        });
+        canvas.addEventListener('mousedown', () => isDrawing = true);
+        canvas.addEventListener('mouseup', () => isDrawing = false);
+        canvas.addEventListener('mousemove', draw);
+        clearButton.addEventListener('click', () => ctx.clearRect(0, 0, canvas.width, canvas.height));
 
+        function draw(e) {
+            if (!isDrawing) return;
+            ctx.lineWidth = 2;
+            ctx.lineCap = 'round';
+            ctx.strokeStyle = '#ff6f61';
+            ctx.lineTo(e.offsetX, e.offsetY);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(e.offsetX, e.offsetY);
+        }
+
+        // 漢字クイズ機能
         const quizKanji = document.getElementById('quiz-kanji');
         const readingInput = document.getElementById('reading-input');
         const submitButton = document.getElementById('submit-answer');
         const feedback = document.getElementById('feedback');
+        const historyList = document.getElementById('history-list');
 
         const kanjiQuiz = [
             { kanji: '日', reading: 'にち' },
@@ -160,11 +208,17 @@
             const correctAnswer = kanjiQuiz[currentIndex].reading;
 
             if (userAnswer === correctAnswer) {
-                feedback.innerHTML = '<span class="correct-feedback">正解です！🎉</span><div class="emoji">✨👏😊</div>';
+                feedback.textContent = '正解です！🎉';
+                feedback.style.color = 'green';
             } else {
                 feedback.textContent = `正解は "${correctAnswer}" です。😢`;
                 feedback.style.color = 'red';
             }
+
+            // 学習履歴に追加
+            const listItem = document.createElement('li');
+            listItem.textContent = `漢字: ${kanjiQuiz[currentIndex].kanji} | あなたの答え: ${userAnswer} | 正解: ${correctAnswer}`;
+            historyList.appendChild(listItem);
 
             currentIndex = (currentIndex + 1) % kanjiQuiz.length;
             setTimeout(loadQuestion, 2000);
