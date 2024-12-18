@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -178,3 +179,185 @@
     </script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>漢字学習アプリ</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #ff6f61;
+            color: #fff;
+            padding: 15px;
+            font-size: 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+            background-color: #ff9f68;
+            border-radius: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 15px;
+            background-color: #ff6f61;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff3f3f;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #ff6f61;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            font-size: 1.2em;
+            border: 2px solid #ff9f68;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #ff9f68;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1.2em;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background: #ff3f3f;
+            transform: scale(1.05);
+        }
+
+        #feedback {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        #history-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        #history-list li {
+            background-color: #ffefef;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>漢字学習アプリ</h1>
+        <nav>
+            <ul>
+                <li><a href="#quiz">クイズ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 漢字クイズセクション -->
+        <section id="quiz">
+            <h2>漢字の読み方クイズ</h2>
+            <p>次の漢字の読みを入力してください: <strong id="quiz-kanji">日</strong></p>
+            <input type="text" id="reading-input" placeholder="読み方を入力">
+            <button id="submit-answer">答え合わせ</button>
+            <p id="feedback"></p>
+        </section>
+    </main>
+
+    <script>
+        const quizKanji = document.getElementById('quiz-kanji');
+        const readingInput = document.getElementById('reading-input');
+        const submitButton = document.getElementById('submit-answer');
+        const feedback = document.getElementById('feedback');
+
+        let kanjiQuiz = [];
+        let currentIndex = 0;
+
+        // 漢字データを外部JSONファイルから読み込む
+        fetch('extracted_kanji_data.json')
+            .then(response => response.json())
+            .then(data => {
+                kanjiQuiz = data;
+                loadQuestion();
+            })
+            .catch(error => {
+                console.error('Error loading kanji data:', error);
+                feedback.textContent = '漢字データの読み込みに失敗しました。';
+            });
+
+        function loadQuestion() {
+            if (kanjiQuiz.length > 0) {
+                quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
+                feedback.textContent = '';
+                readingInput.value = '';
+            }
+        }
+
+        submitButton.addEventListener('click', () => {
+            const userAnswer = readingInput.value.trim();
+            const correctAnswer = kanjiQuiz[currentIndex].reading;
+
+            if (userAnswer === correctAnswer) {
+                feedback.textContent = '正解です！🎉';
+                feedback.style.color = 'green';
+            } else {
+                feedback.textContent = `正解は "${correctAnswer}" です。😢`;
+                feedback.style.color = 'red';
+            }
+
+            currentIndex = (currentIndex + 1) % kanjiQuiz.length;
+            setTimeout(loadQuestion, 2000);
+        });
+    </script>
+</body>
+</html>
+>>>>>>> Stashed changes

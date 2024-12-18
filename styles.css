@@ -1,0 +1,126 @@
+/* 全体のリセットと基本スタイル */
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ヘッダー */
+header {
+    background: #ff6f61;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ナビゲーションメニュー */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #ff9f68;
+    border-radius: 20px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background: #ff3f3f;
+    transform: scale(1.1);
+}
+
+/* メインコンテンツ */
+main {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* セクションタイトル */
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #ff6f61;
+}
+
+/* クイズの漢字表示 */
+#quiz-kanji {
+    font-size: 3em;
+    display: block;
+    margin: 20px 0;
+    color: #ff3f3f;
+    font-weight: bold;
+}
+
+/* 入力フィールド */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ff9f68;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* ボタン */
+button {
+    background: #ff9f68;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #ff3f3f;
+    transform: scale(1.05);
+}
+
+/* フィードバックメッセージ */
+#feedback {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* フッター */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+}
