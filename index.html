@@ -97,13 +97,6 @@
             margin-top: 20px;
         }
 
-        canvas {
-            display: block;
-            margin: 20px auto;
-            background-color: #f0f8ff;
-            border: 2px solid #ff9f68;
-        }
-
         #history-list {
             list-style: none;
             padding: 0;
@@ -122,22 +115,12 @@
         <h1>漢字学習アプリ</h1>
         <nav>
             <ul>
-                <li><a href="#practice">練習</a></li>
                 <li><a href="#quiz">クイズ</a></li>
-                <li><a href="#history">学習履歴</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- 書き取り練習セクション -->
-        <section id="practice">
-            <h2>漢字書き取り練習</h2>
-            <p>次の漢字を書いてみましょう: <strong id="practice-kanji">木</strong></p>
-            <canvas id="practice-canvas" width="300" height="150"></canvas>
-            <button id="clear-canvas">クリア</button>
-        </section>
-
         <!-- 漢字クイズセクション -->
         <section id="quiz">
             <h2>漢字の読み方クイズ</h2>
@@ -146,61 +129,35 @@
             <button id="submit-answer">答え合わせ</button>
             <p id="feedback"></p>
         </section>
-
-        <!-- 学習履歴セクション -->
-        <section id="history">
-            <h2>学習履歴</h2>
-            <ul id="history-list">
-                <li>まだ学習履歴がありません。</li>
-            </ul>
-        </section>
     </main>
 
     <script>
-        // 書き取り練習のCanvas機能
-        const canvas = document.getElementById('practice-canvas');
-        const clearButton = document.getElementById('clear-canvas');
-        const ctx = canvas.getContext('2d');
-        let isDrawing = false;
-
-        canvas.addEventListener('mousedown', () => isDrawing = true);
-        canvas.addEventListener('mouseup', () => isDrawing = false);
-        canvas.addEventListener('mousemove', draw);
-        clearButton.addEventListener('click', () => ctx.clearRect(0, 0, canvas.width, canvas.height));
-
-        function draw(e) {
-            if (!isDrawing) return;
-            ctx.lineWidth = 2;
-            ctx.lineCap = 'round';
-            ctx.strokeStyle = '#ff6f61';
-            ctx.lineTo(e.offsetX, e.offsetY);
-            ctx.stroke();
-            ctx.beginPath();
-            ctx.moveTo(e.offsetX, e.offsetY);
-        }
-
-        // 漢字クイズ機能
         const quizKanji = document.getElementById('quiz-kanji');
         const readingInput = document.getElementById('reading-input');
         const submitButton = document.getElementById('submit-answer');
         const feedback = document.getElementById('feedback');
-        const historyList = document.getElementById('history-list');
 
-        const kanjiQuiz = [
-            { kanji: '日', reading: 'にち' },
-            { kanji: '月', reading: 'つき' },
-            { kanji: '木', reading: 'き' },
-            { kanji: '水', reading: 'みず' },
-            { kanji: '火', reading: 'ひ' },
-            { kanji: '金', reading: 'きん' }
-        ];
-
+        let kanjiQuiz = [];
         let currentIndex = 0;
 
+        // 漢字データを外部JSONファイルから読み込む
+        fetch('extracted_kanji_data.json')
+            .then(response => response.json())
+            .then(data => {
+                kanjiQuiz = data;
+                loadQuestion();
+            })
+            .catch(error => {
+                console.error('Error loading kanji data:', error);
+                feedback.textContent = '漢字データの読み込みに失敗しました。';
+            });
+
         function loadQuestion() {
-            quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
-            feedback.textContent = '';
-            readingInput.value = '';
+            if (kanjiQuiz.length > 0) {
+                quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
+                feedback.textContent = '';
+                readingInput.value = '';
+            }
         }
 
         submitButton.addEventListener('click', () => {
@@ -215,16 +172,9 @@
                 feedback.style.color = 'red';
             }
 
-            // 学習履歴に追加
-            const listItem = document.createElement('li');
-            listItem.textContent = `漢字: ${kanjiQuiz[currentIndex].kanji} | あなたの答え: ${userAnswer} | 正解: ${correctAnswer}`;
-            historyList.appendChild(listItem);
-
             currentIndex = (currentIndex + 1) % kanjiQuiz.length;
             setTimeout(loadQuestion, 2000);
         });
-
-        loadQuestion();
     </script>
 </body>
 </html>
