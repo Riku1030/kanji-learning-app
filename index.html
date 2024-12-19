@@ -15,6 +15,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+            transition: background-color 0.5s ease;
         }
 
         /* タイトル画面のスタイル */
@@ -58,6 +59,7 @@
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.5s ease;
         }
 
         h2 {
@@ -92,25 +94,33 @@
         }
 
         #feedback {
-            font-size: 1.5em;
+            font-size: 1.8em;
             margin-top: 20px;
+            min-height: 40px;
+            transition: all 0.5s ease;
         }
 
-        #return-button {
-            display: none;
-            background-color: #ff6f61;
-            color: #fff;
-            border: none;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            border-radius: 20px;
-            margin-top: 20px;
-            cursor: pointer;
-            transition: background-color 0.3s;
+        /* 正解アニメーション */
+        .correct {
+            color: #28a745;
+            animation: glow 1s ease;
         }
 
-        #return-button:hover {
-            background-color: #ff3f3f;
+        @keyframes glow {
+            0% { text-shadow: 0 0 10px #28a745; }
+            100% { text-shadow: none; }
+        }
+
+        /* 不正解アニメーション */
+        .incorrect {
+            color: #dc3545;
+            animation: shake 0.5s ease;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
         }
     </style>
 </head>
@@ -128,85 +138,63 @@
         <input type="text" id="reading-input" placeholder="読み方を入力">
         <button id="submit-answer">答え合わせ</button>
         <p id="feedback"></p>
-        <button id="return-button">タイトルに戻る</button>
     </div>
 
     <script>
         const titleScreen = document.getElementById('title-screen');
         const quizScreen = document.getElementById('quiz-screen');
         const startButton = document.getElementById('start-button');
-        const returnButton = document.getElementById('return-button');
-        const submitButton = document.getElementById('submit-answer');
         const quizKanji = document.getElementById('quiz-kanji');
         const readingInput = document.getElementById('reading-input');
+        const submitButton = document.getElementById('submit-answer');
         const feedback = document.getElementById('feedback');
 
         let kanjiQuiz = [];
         let currentIndex = 0;
         const maxQuestions = 10;
 
-        // スタートボタンのイベントリスナー
         startButton.addEventListener('click', () => {
             titleScreen.style.display = 'none';
             quizScreen.style.display = 'block';
-            currentIndex = 0;
             loadQuizData();
         });
 
-        // タイトルに戻るボタンのイベントリスナー
-        returnButton.addEventListener('click', () => {
-            quizScreen.style.display = 'none';
-            titleScreen.style.display = 'flex';
-            feedback.textContent = '';
-            readingInput.value = '';
-            submitButton.disabled = false;
-        });
-
-        // 漢字データを読み込む関数
         function loadQuizData() {
             fetch('extracted_kanji_data.json')
                 .then(response => response.json())
                 .then(data => {
                     kanjiQuiz = shuffleArray(data).slice(0, maxQuestions);
                     loadQuestion();
-                })
-                .catch(error => {
-                    console.error('Error loading kanji data:', error);
-                    feedback.textContent = '漢字データの読み込みに失敗しました。';
                 });
         }
 
-        // 問題を読み込む関数
         function loadQuestion() {
             if (currentIndex < kanjiQuiz.length) {
                 quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
                 feedback.textContent = '';
+                feedback.className = '';
                 readingInput.value = '';
             } else {
                 feedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
-                submitButton.disabled = true;
-                returnButton.style.display = 'inline-block';
             }
         }
 
-        // 答え合わせボタンのイベントリスナー
         submitButton.addEventListener('click', () => {
             const userAnswer = readingInput.value.trim();
             const correctAnswer = kanjiQuiz[currentIndex].reading;
 
             if (userAnswer === correctAnswer) {
-                feedback.textContent = '正解です！🎉';
-                feedback.style.color = 'green';
+                feedback.textContent = '正解です！素晴らしい！🎉✨';
+                feedback.className = 'correct';
             } else {
-                feedback.textContent = `正解は "${correctAnswer}" です。😢`;
-                feedback.style.color = 'red';
+                feedback.textContent = `残念！正解は "${correctAnswer}" です。😢💦`;
+                feedback.className = 'incorrect';
             }
 
             currentIndex++;
             setTimeout(loadQuestion, 2000);
         });
 
-        // 配列をシャッフルする関数
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
