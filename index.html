@@ -126,11 +126,30 @@
     <!-- クイズ画面 -->
     <div id="quiz-screen">
         <h2>漢字の読み方クイズ</h2>
-        <p>次の漢字の読みを入力してください: <strong id="quiz-kanji"></strong></p>
+        <p>次の漢字の読みを入力してください: <strong id="quiz-kanji">例</strong></p>
         <input type="text" id="reading-input" placeholder="読み方を入力">
         <button id="submit-answer">答え合わせ</button>
         <p id="feedback"></p>
         <button id="return-button">タイトルに戻る</button>
     </div>
+
+    <script>
+        const titleScreen = document.getElementById('title-screen');
+        const quizScreen = document.getElementById('quiz-screen');
+        const startButton = document.getElementById('start-button');
+        const returnButton = document.getElementById('return-button');
+        
+        // スタートボタンのイベントリスナー
+        startButton.addEventListener('click', () => {
+            titleScreen.style.display = 'none';
+            quizScreen.style.display = 'block';
+        });
+
+        // タイトルに戻るボタンのイベントリスナー
+        returnButton.addEventListener('click', () => {
+            quizScreen.style.display = 'none';
+            titleScreen.style.display = 'flex';
+        });
+    </script>
 </body>
 </html>
