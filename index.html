@@ -15,10 +15,10 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            transition: background-color 0.5s ease;
+            position: relative;
         }
 
-        /* タイトル画面のスタイル */
+        /* タイトル画面 */
         #title-screen {
             display: flex;
             flex-direction: column;
@@ -50,7 +50,7 @@
             transform: scale(1.05);
         }
 
-        /* クイズ画面のスタイル */
+        /* クイズ画面 */
         #quiz-screen {
             display: none;
             max-width: 600px;
@@ -59,7 +59,6 @@
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.5s ease;
         }
 
         h2 {
@@ -93,34 +92,25 @@
             transform: scale(1.05);
         }
 
-        #feedback {
-            font-size: 1.8em;
-            margin-top: 20px;
-            min-height: 40px;
-            transition: all 0.5s ease;
+        /* 正解・不正解の中央フィードバック */
+        #center-feedback {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 5em;
+            font-weight: bold;
+            color: white;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            animation: fadeInOut 1.5s ease;
         }
 
-        /* 正解アニメーション */
-        .correct {
-            color: #28a745;
-            animation: glow 1s ease;
-        }
-
-        @keyframes glow {
-            0% { text-shadow: 0 0 10px #28a745; }
-            100% { text-shadow: none; }
-        }
-
-        /* 不正解アニメーション */
-        .incorrect {
-            color: #dc3545;
-            animation: shake 0.5s ease;
-        }
-
-        @keyframes shake {
-            0%, 100% { transform: translateX(0); }
-            25% { transform: translateX(-10px); }
-            75% { transform: translateX(10px); }
+        @keyframes fadeInOut {
+            0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+            50% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+            100% { opacity: 0; transform: translate(-50%, -50%) scale(1.2); }
         }
     </style>
 </head>
@@ -137,8 +127,10 @@
         <p>次の漢字の読みを入力してください: <strong id="quiz-kanji"></strong></p>
         <input type="text" id="reading-input" placeholder="読み方を入力">
         <button id="submit-answer">答え合わせ</button>
-        <p id="feedback"></p>
     </div>
+
+    <!-- 中央フィードバック表示エリア -->
+    <div id="center-feedback"></div>
 
     <script>
         const titleScreen = document.getElementById('title-screen');
@@ -147,7 +139,7 @@
         const quizKanji = document.getElementById('quiz-kanji');
         const readingInput = document.getElementById('reading-input');
         const submitButton = document.getElementById('submit-answer');
-        const feedback = document.getElementById('feedback');
+        const centerFeedback = document.getElementById('center-feedback');
 
         let kanjiQuiz = [];
         let currentIndex = 0;
@@ -171,11 +163,10 @@
         function loadQuestion() {
             if (currentIndex < kanjiQuiz.length) {
                 quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
-                feedback.textContent = '';
-                feedback.className = '';
                 readingInput.value = '';
             } else {
-                feedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
+                centerFeedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
+                centerFeedback.style.display = 'block';
             }
         }
 
@@ -184,16 +175,23 @@
             const correctAnswer = kanjiQuiz[currentIndex].reading;
 
             if (userAnswer === correctAnswer) {
-                feedback.textContent = '正解です！素晴らしい！🎉✨';
-                feedback.className = 'correct';
+                showFeedback('正解！🎉', 'limegreen');
             } else {
-                feedback.textContent = `残念！正解は "${correctAnswer}" です。😢💦`;
-                feedback.className = 'incorrect';
+                showFeedback(`不正解！😢`, 'red');
             }
 
             currentIndex++;
             setTimeout(loadQuestion, 2000);
         });
+
+        function showFeedback(message, color) {
+            centerFeedback.textContent = message;
+            centerFeedback.style.color = color;
+            centerFeedback.style.display = 'block';
+            setTimeout(() => {
+                centerFeedback.style.display = 'none';
+            }, 1500);
+        }
 
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
