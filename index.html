@@ -126,12 +126,15 @@
 
         let kanjiQuiz = [];
         let currentIndex = 0;
+        let maxQuestions = 10;
+        let questionCount = 0;
 
         // 漢字データを外部JSONファイルから読み込む
         fetch('extracted_kanji_data.json')
             .then(response => response.json())
             .then(data => {
                 kanjiQuiz = data;
+                shuffleQuestions();
                 loadQuestion();
             })
             .catch(error => {
@@ -139,11 +142,20 @@
                 feedback.textContent = '漢字データの読み込みに失敗しました。';
             });
 
+        // クイズの問題をランダムに並べ替える
+        function shuffleQuestions() {
+            kanjiQuiz.sort(() => Math.random() - 0.5);
+        }
+
+        // 問題を読み込む関数
         function loadQuestion() {
-            if (kanjiQuiz.length > 0) {
+            if (questionCount < maxQuestions) {
                 quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
                 feedback.textContent = '';
                 readingInput.value = '';
+            } else {
+                feedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
+                submitButton.disabled = true;
             }
         }
 
@@ -160,6 +172,7 @@
             }
 
             currentIndex = (currentIndex + 1) % kanjiQuiz.length;
+            questionCount++;
             setTimeout(loadQuestion, 2000);
         });
     </script>
