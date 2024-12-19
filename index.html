@@ -26,7 +26,6 @@
             height: 100vh;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-            background-color: rgba(255, 255, 255, 0.2);
             filter: brightness(1.2);
         }
 
@@ -138,18 +137,66 @@
         const quizScreen = document.getElementById('quiz-screen');
         const startButton = document.getElementById('start-button');
         const returnButton = document.getElementById('return-button');
-        
+        const submitButton = document.getElementById('submit-answer');
+        const quizKanji = document.getElementById('quiz-kanji');
+        const readingInput = document.getElementById('reading-input');
+        const feedback = document.getElementById('feedback');
+
+        let kanjiQuiz = [
+            { kanji: '日', reading: 'にち' },
+            { kanji: '月', reading: 'げつ' },
+            { kanji: '火', reading: 'か' },
+            { kanji: '水', reading: 'すい' },
+            { kanji: '木', reading: 'もく' },
+        ];
+
+        let currentIndex = 0;
+
         // スタートボタンのイベントリスナー
         startButton.addEventListener('click', () => {
             titleScreen.style.display = 'none';
             quizScreen.style.display = 'block';
+            loadQuestion();
         });
 
         // タイトルに戻るボタンのイベントリスナー
         returnButton.addEventListener('click', () => {
             quizScreen.style.display = 'none';
             titleScreen.style.display = 'flex';
+            feedback.textContent = '';
+            readingInput.value = '';
+            currentIndex = 0;
         });
+
+        // 答え合わせボタンのイベントリスナー
+        submitButton.addEventListener('click', () => {
+            const userAnswer = readingInput.value.trim();
+            const correctAnswer = kanjiQuiz[currentIndex].reading;
+
+            if (userAnswer === correctAnswer) {
+                feedback.textContent = '正解です！🎉';
+                feedback.style.color = 'green';
+            } else {
+                feedback.textContent = `正解は "${correctAnswer}" です。😢`;
+                feedback.style.color = 'red';
+            }
+
+            currentIndex++;
+            setTimeout(loadQuestion, 2000);
+        });
+
+        // 問題を読み込む関数
+        function loadQuestion() {
+            if (currentIndex < kanjiQuiz.length) {
+                quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
+                feedback.textContent = '';
+                readingInput.value = '';
+            } else {
+                feedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
+                submitButton.disabled = true;
+                returnButton.style.display = 'inline-block';
+            }
+        }
     </script>
 </body>
 </html>
