@@ -12,6 +12,11 @@
             text-align: center;
             margin: 0;
             padding: 0;
+            background-image: url('A_serene_and_elegant_Japanese-style_background_fea1.png');
+            background-size: cover;          /* 背景画像を画面全体に広げる */
+            background-repeat: no-repeat;    /* 背景画像を繰り返さない */
+            background-position: center;     /* 画像を中央に配置 */
+            background-attachment: fixed;    /* 背景を固定 */
         }
 
         /* タイトル画面のスタイル */
@@ -21,10 +26,6 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-image: url('A_serene_and_elegant_Japanese-style_background_fea1.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
@@ -56,22 +57,17 @@
             max-width: 600px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.9); /* 半透明の白背景 */
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 2; /* 背景画像より前面に表示 */
         }
 
         h2 {
             font-size: 2em;
             color: #ff6f61;
             margin-bottom: 15px;
-        }
-
-        img#quiz-image {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-            border-radius: 10px;
         }
 
         input[type="text"] {
@@ -132,7 +128,6 @@
     <!-- クイズ画面 -->
     <div id="quiz-screen">
         <h2>漢字の読み方クイズ</h2>
-        <img id="quiz-image" src="A_serene_and_elegant_Japanese-style_background_fea1.png" alt="クイズ背景">
         <p>次の漢字の読みを入力してください: <strong id="quiz-kanji"></strong></p>
         <input type="text" id="reading-input" placeholder="読み方を入力">
         <button id="submit-answer">答え合わせ</button>
