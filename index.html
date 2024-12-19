@@ -21,7 +21,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-image: url('A_serene_and_elegant_Japanese-style_background_fea.png');
+            background-image: url('A_serene_and_elegant_Japanese-style_background_fea1.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -50,38 +50,28 @@
             transform: scale(1.05);
         }
 
-        /* クイズ画面背景のスタイル */
-        #quiz-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('A_serene_and_elegant_Japanese-style_background_fea.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            z-index: -1;
-            filter: blur(2px); /* 背景をわずかにぼかす */
-        }
-
         /* クイズ画面のスタイル */
         #quiz-screen {
             display: none;
             max-width: 600px;
             margin: 20px auto;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: #fff;
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            position: relative;
-            z-index: 1;
         }
 
         h2 {
             font-size: 2em;
             color: #ff6f61;
             margin-bottom: 15px;
+        }
+
+        img#quiz-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
         }
 
         input[type="text"] {
@@ -139,12 +129,10 @@
         <button id="start-button">スタート</button>
     </div>
 
-    <!-- クイズ画面背景 -->
-    <div id="quiz-background"></div>
-
     <!-- クイズ画面 -->
     <div id="quiz-screen">
         <h2>漢字の読み方クイズ</h2>
+        <img id="quiz-image" src="A_serene_and_elegant_Japanese-style_background_fea1.png" alt="クイズ背景">
         <p>次の漢字の読みを入力してください: <strong id="quiz-kanji"></strong></p>
         <input type="text" id="reading-input" placeholder="読み方を入力">
         <button id="submit-answer">答え合わせ</button>
