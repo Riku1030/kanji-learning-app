@@ -50,15 +50,32 @@
             transform: scale(1.05);
         }
 
+        /* クイズ画面背景のスタイル */
+        #quiz-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('A_serene_and_elegant_Japanese-style_background_fea.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1;
+            filter: blur(2px); /* 背景をわずかにぼかす */
+        }
+
         /* クイズ画面のスタイル */
         #quiz-screen {
             display: none;
             max-width: 600px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
         }
 
         h2 {
@@ -121,6 +138,9 @@
         <h1>漢字学習アプリ</h1>
         <button id="start-button">スタート</button>
     </div>
+
+    <!-- クイズ画面背景 -->
+    <div id="quiz-background"></div>
 
     <!-- クイズ画面 -->
     <div id="quiz-screen">
