@@ -15,68 +15,74 @@
             padding: 0;
         }
 
+        /* タイトル画面のスタイル */
         #title-screen {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #ff9f68;
+            background-image: url('serene_japanese_background.png'); /* 生成した画像を使用 */
+            background-size: cover;
+            background-position: center;
             color: #fff;
         }
 
         #title-screen h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
 
         #start-button {
             background-color: #ff6f61;
             color: #fff;
             border: none;
-            padding: 15px 30px;
+            padding: 20px 40px;
             font-size: 1.5em;
-            border-radius: 20px;
+            border-radius: 30px;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.2s;
         }
 
         #start-button:hover {
             background-color: #ff3f3f;
+            transform: scale(1.05);
         }
 
+        /* クイズ画面のスタイル */
         #quiz-screen {
             display: none;
             max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
+            margin: 40px auto;
+            padding: 30px;
             background-color: #fff;
             border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
 
         h2 {
-            font-size: 2em;
+            font-size: 2.5em;
             color: #ff6f61;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
 
         input[type="text"] {
             width: 80%;
-            padding: 10px;
-            font-size: 1.2em;
-            border: 2px solid #ff9f68;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            padding: 15px;
+            font-size: 1.5em;
+            border: 3px solid #ff9f68;
+            border-radius: 15px;
+            margin-bottom: 30px;
         }
 
         button {
             background: #ff9f68;
             color: #fff;
             border: none;
-            padding: 12px 20px;
-            font-size: 1.2em;
-            border-radius: 20px;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            border-radius: 25px;
             cursor: pointer;
             transition: background 0.3s, transform 0.2s;
         }
@@ -87,8 +93,8 @@
         }
 
         #feedback {
-            font-size: 1.5em;
-            margin-top: 20px;
+            font-size: 1.8em;
+            margin-top: 25px;
         }
 
         #return-button {
@@ -96,10 +102,10 @@
             background-color: #ff6f61;
             color: #fff;
             border: none;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            border-radius: 20px;
-            margin-top: 20px;
+            padding: 20px 40px;
+            font-size: 1.5em;
+            border-radius: 30px;
+            margin-top: 30px;
             cursor: pointer;
             transition: background-color 0.3s;
         }
@@ -164,6 +170,7 @@
             .then(data => {
                 // シャッフルしてから10問だけ選ぶ
                 kanjiQuiz = shuffleArray(data).slice(0, maxQuestions);
+                loadQuestion();
             })
             .catch(error => {
                 console.error('Error loading kanji data:', error);
