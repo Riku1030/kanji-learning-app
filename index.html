@@ -26,7 +26,6 @@
             height: 100vh;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-            filter: brightness(1.2);
         }
 
         #title-screen h1 {
@@ -125,7 +124,7 @@
     <!-- クイズ画面 -->
     <div id="quiz-screen">
         <h2>漢字の読み方クイズ</h2>
-        <p>次の漢字の読みを入力してください: <strong id="quiz-kanji">例</strong></p>
+        <p>次の漢字の読みを入力してください: <strong id="quiz-kanji"></strong></p>
         <input type="text" id="reading-input" placeholder="読み方を入力">
         <button id="submit-answer">答え合わせ</button>
         <p id="feedback"></p>
@@ -142,21 +141,16 @@
         const readingInput = document.getElementById('reading-input');
         const feedback = document.getElementById('feedback');
 
-        let kanjiQuiz = [
-            { kanji: '日', reading: 'にち' },
-            { kanji: '月', reading: 'げつ' },
-            { kanji: '火', reading: 'か' },
-            { kanji: '水', reading: 'すい' },
-            { kanji: '木', reading: 'もく' },
-        ];
-
+        let kanjiQuiz = [];
         let currentIndex = 0;
+        const maxQuestions = 10;
 
         // スタートボタンのイベントリスナー
         startButton.addEventListener('click', () => {
             titleScreen.style.display = 'none';
             quizScreen.style.display = 'block';
-            loadQuestion();
+            currentIndex = 0;
+            loadQuizData();
         });
 
         // タイトルに戻るボタンのイベントリスナー
@@ -165,8 +159,35 @@
             titleScreen.style.display = 'flex';
             feedback.textContent = '';
             readingInput.value = '';
-            currentIndex = 0;
+            submitButton.disabled = false;
         });
+
+        // 漢字データを読み込む関数
+        function loadQuizData() {
+            fetch('extracted_kanji_data.json')
+                .then(response => response.json())
+                .then(data => {
+                    kanjiQuiz = shuffleArray(data).slice(0, maxQuestions);
+                    loadQuestion();
+                })
+                .catch(error => {
+                    console.error('Error loading kanji data:', error);
+                    feedback.textContent = '漢字データの読み込みに失敗しました。';
+                });
+        }
+
+        // 問題を読み込む関数
+        function loadQuestion() {
+            if (currentIndex < kanjiQuiz.length) {
+                quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
+                feedback.textContent = '';
+                readingInput.value = '';
+            } else {
+                feedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
+                submitButton.disabled = true;
+                returnButton.style.display = 'inline-block';
+            }
+        }
 
         // 答え合わせボタンのイベントリスナー
         submitButton.addEventListener('click', () => {
@@ -185,17 +206,13 @@
             setTimeout(loadQuestion, 2000);
         });
 
-        // 問題を読み込む関数
-        function loadQuestion() {
-            if (currentIndex < kanjiQuiz.length) {
-                quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
-                feedback.textContent = '';
-                readingInput.value = '';
-            } else {
-                feedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
-                submitButton.disabled = true;
-                returnButton.style.display = 'inline-block';
+        // 配列をシャッフルする関数
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
             }
+            return array;
         }
     </script>
 </body>
