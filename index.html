@@ -90,6 +90,23 @@
             font-size: 1.5em;
             margin-top: 20px;
         }
+
+        #return-button {
+            display: none;
+            background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #return-button:hover {
+            background-color: #ff3f3f;
+        }
     </style>
 </head>
 <body>
@@ -106,6 +123,7 @@
         <input type="text" id="reading-input" placeholder="読み方を入力">
         <button id="submit-answer">答え合わせ</button>
         <p id="feedback"></p>
+        <button id="return-button">タイトルに戻る</button>
     </div>
 
     <script>
@@ -116,22 +134,36 @@
         const readingInput = document.getElementById('reading-input');
         const submitButton = document.getElementById('submit-answer');
         const feedback = document.getElementById('feedback');
+        const returnButton = document.getElementById('return-button');
 
         let kanjiQuiz = [];
         let currentIndex = 0;
+        const maxQuestions = 10;
 
         // スタートボタンをクリックでタイトル画面を非表示、クイズ画面を表示
         startButton.addEventListener('click', () => {
             titleScreen.style.display = 'none';
             quizScreen.style.display = 'block';
+            returnButton.style.display = 'none';
+            currentIndex = 0;
             loadQuestion();
+        });
+
+        // タイトルに戻るボタンの動作
+        returnButton.addEventListener('click', () => {
+            titleScreen.style.display = 'flex';
+            quizScreen.style.display = 'none';
+            feedback.textContent = '';
+            readingInput.value = '';
+            submitButton.disabled = false;
         });
 
         // 漢字データを外部JSONファイルから読み込む
         fetch('extracted_kanji_data.json')
             .then(response => response.json())
             .then(data => {
-                kanjiQuiz = data;
+                // シャッフルしてから10問だけ選ぶ
+                kanjiQuiz = shuffleArray(data).slice(0, maxQuestions);
             })
             .catch(error => {
                 console.error('Error loading kanji data:', error);
@@ -139,10 +171,15 @@
             });
 
         function loadQuestion() {
-            if (kanjiQuiz.length > 0) {
+            if (kanjiQuiz.length > 0 && currentIndex < maxQuestions) {
                 quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
                 feedback.textContent = '';
                 readingInput.value = '';
+            } else {
+                feedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
+                feedback.style.color = 'blue';
+                submitButton.disabled = true;
+                returnButton.style.display = 'inline-block';
             }
         }
 
@@ -158,9 +195,18 @@
                 feedback.style.color = 'red';
             }
 
-            currentIndex = (currentIndex + 1) % kanjiQuiz.length;
+            currentIndex++;
             setTimeout(loadQuestion, 2000);
         });
+
+        // 配列をシャッフルする関数
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
     </script>
 </body>
 </html>
