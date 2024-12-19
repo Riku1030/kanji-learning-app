@@ -13,10 +13,10 @@
             margin: 0;
             padding: 0;
             background-image: url('A_serene_and_elegant_Japanese-style_background_fea1.png');
-            background-size: cover;          /* 背景画像を画面全体に広げる */
-            background-repeat: no-repeat;    /* 背景画像を繰り返さない */
-            background-position: center;     /* 画像を中央に配置 */
-            background-attachment: fixed;    /* 背景を固定 */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
         }
 
         /* タイトル画面のスタイル */
@@ -26,9 +26,10 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: rgba(0, 0, 0, 0.4); /* 背景画像に対する透明なオーバーレイ */
+            background-color: rgba(0, 0, 0, 0.4);
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            filter: brightness(50%); /* タイトル画面を暗くする */
         }
 
         #title-screen h1 {
@@ -58,11 +59,12 @@
             max-width: 600px;
             margin: 50px auto;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9); /* 半透明の白背景 */
+            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             position: relative;
-            z-index: 2; /* 背景画像より前面に表示 */
+            z-index: 2;
+            filter: brightness(120%); /* クイズ画面を明るくする */
         }
 
         h2 {
@@ -150,7 +152,6 @@
         let currentIndex = 0;
         const maxQuestions = 10;
 
-        // スタートボタンをクリックでタイトル画面を非表示、クイズ画面を表示
         startButton.addEventListener('click', () => {
             titleScreen.style.display = 'none';
             quizScreen.style.display = 'block';
@@ -159,7 +160,6 @@
             loadQuestion();
         });
 
-        // タイトルに戻るボタンの動作
         returnButton.addEventListener('click', () => {
             titleScreen.style.display = 'flex';
             quizScreen.style.display = 'none';
@@ -168,7 +168,6 @@
             submitButton.disabled = false;
         });
 
-        // 漢字データを外部JSONファイルから読み込む
         fetch('extracted_kanji_data.json')
             .then(response => response.json())
             .then(data => {
@@ -208,7 +207,6 @@
             setTimeout(loadQuestion, 2000);
         });
 
-        // 配列をシャッフルする関数
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
