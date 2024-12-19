@@ -15,50 +15,44 @@
             padding: 0;
         }
 
-        header {
-            background: #ff6f61;
-            color: #fff;
-            padding: 15px;
-            font-size: 1.5em;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        nav ul {
-            list-style: none;
+        #title-screen {
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            gap: 15px;
-            padding: 10px;
+            align-items: center;
+            height: 100vh;
             background-color: #ff9f68;
-            border-radius: 10px;
+            color: #fff;
         }
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.2em;
-            padding: 10px 15px;
+        #title-screen h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        #start-button {
             background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5em;
             border-radius: 20px;
+            cursor: pointer;
             transition: background-color 0.3s;
         }
 
-        nav a:hover {
+        #start-button:hover {
             background-color: #ff3f3f;
         }
 
-        main {
+        #quiz-screen {
+            display: none;
             max-width: 600px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        section {
-            margin-bottom: 30px;
         }
 
         h2 {
@@ -99,26 +93,25 @@
     </style>
 </head>
 <body>
-    <header>
+    <!-- タイトル画面 -->
+    <div id="title-screen">
         <h1>漢字学習アプリ</h1>
-        <nav>
-            <ul>
-                <li><a href="#quiz">クイズ</a></li>
-            </ul>
-        </nav>
-    </header>
+        <button id="start-button">スタート</button>
+    </div>
 
-    <main>
-        <section id="quiz">
-            <h2>漢字の読み方クイズ</h2>
-            <p>次の漢字の読みを入力してください: <strong id="quiz-kanji">日</strong></p>
-            <input type="text" id="reading-input" placeholder="読み方を入力">
-            <button id="submit-answer">答え合わせ</button>
-            <p id="feedback"></p>
-        </section>
-    </main>
+    <!-- クイズ画面 -->
+    <div id="quiz-screen">
+        <h2>漢字の読み方クイズ</h2>
+        <p>次の漢字の読みを入力してください: <strong id="quiz-kanji">日</strong></p>
+        <input type="text" id="reading-input" placeholder="読み方を入力">
+        <button id="submit-answer">答え合わせ</button>
+        <p id="feedback"></p>
+    </div>
 
     <script>
+        const titleScreen = document.getElementById('title-screen');
+        const quizScreen = document.getElementById('quiz-screen');
+        const startButton = document.getElementById('start-button');
         const quizKanji = document.getElementById('quiz-kanji');
         const readingInput = document.getElementById('reading-input');
         const submitButton = document.getElementById('submit-answer');
@@ -126,36 +119,30 @@
 
         let kanjiQuiz = [];
         let currentIndex = 0;
-        let maxQuestions = 10;
-        let questionCount = 0;
+
+        // スタートボタンをクリックでタイトル画面を非表示、クイズ画面を表示
+        startButton.addEventListener('click', () => {
+            titleScreen.style.display = 'none';
+            quizScreen.style.display = 'block';
+            loadQuestion();
+        });
 
         // 漢字データを外部JSONファイルから読み込む
         fetch('extracted_kanji_data.json')
             .then(response => response.json())
             .then(data => {
                 kanjiQuiz = data;
-                shuffleQuestions();
-                loadQuestion();
             })
             .catch(error => {
                 console.error('Error loading kanji data:', error);
                 feedback.textContent = '漢字データの読み込みに失敗しました。';
             });
 
-        // クイズの問題をランダムに並べ替える
-        function shuffleQuestions() {
-            kanjiQuiz.sort(() => Math.random() - 0.5);
-        }
-
-        // 問題を読み込む関数
         function loadQuestion() {
-            if (questionCount < maxQuestions) {
+            if (kanjiQuiz.length > 0) {
                 quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
                 feedback.textContent = '';
                 readingInput.value = '';
-            } else {
-                feedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
-                submitButton.disabled = true;
             }
         }
 
@@ -172,7 +159,6 @@
             }
 
             currentIndex = (currentIndex + 1) % kanjiQuiz.length;
-            questionCount++;
             setTimeout(loadQuestion, 2000);
         });
     </script>
