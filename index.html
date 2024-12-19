@@ -8,28 +8,29 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f8ff;
             color: #333;
             text-align: center;
             margin: 0;
             padding: 0;
-            background-image: url('A_serene_and_elegant_Japanese-style_background_fea.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
         }
 
+        /* タイトル画面のスタイル */
         #title-screen {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-image: url('A_serene_and_elegant_Japanese-style_background_fea.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
             color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
 
         #title-screen h1 {
-            font-size: 3em;
+            font-size: 4em;
             margin-bottom: 20px;
         }
 
@@ -37,17 +38,19 @@
             background-color: #ff6f61;
             color: #fff;
             border: none;
-            padding: 15px 30px;
+            padding: 20px 40px;
             font-size: 1.5em;
-            border-radius: 20px;
+            border-radius: 30px;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.2s;
         }
 
         #start-button:hover {
             background-color: #ff3f3f;
+            transform: scale(1.05);
         }
 
+        /* クイズ画面のスタイル */
         #quiz-screen {
             display: none;
             max-width: 600px;
@@ -165,7 +168,6 @@
         fetch('extracted_kanji_data.json')
             .then(response => response.json())
             .then(data => {
-                // シャッフルしてから10問だけ選ぶ
                 kanjiQuiz = shuffleArray(data).slice(0, maxQuestions);
             })
             .catch(error => {
