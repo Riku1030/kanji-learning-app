@@ -16,9 +16,9 @@
             background-repeat: no-repeat;
             background-position: center;
             position: relative;
+            overflow: hidden;
         }
 
-        /* タイトル画面 */
         #title-screen {
             display: flex;
             flex-direction: column;
@@ -50,7 +50,6 @@
             transform: scale(1.05);
         }
 
-        /* クイズ画面 */
         #quiz-screen {
             display: none;
             max-width: 600px;
@@ -92,36 +91,39 @@
             transform: scale(1.05);
         }
 
-        /* 正解・不正解の中央フィードバック */
         #center-feedback {
             display: none;
             position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 5em;
+            font-size: 6em;
             font-weight: bold;
             color: white;
-            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
             z-index: 1000;
-            animation: fadeInOut 1.5s ease;
+            animation: explode 1.5s ease;
         }
 
-        @keyframes fadeInOut {
-            0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
-            50% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-            100% { opacity: 0; transform: translate(-50%, -50%) scale(1.2); }
+        @keyframes explode {
+            0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+            50% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+            100% { opacity: 0; transform: translate(-50%, -50%) scale(2); }
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translate(-50%, -50%) rotate(0deg); }
+            25% { transform: translate(-48%, -52%) rotate(5deg); }
+            75% { transform: translate(-52%, -48%) rotate(-5deg); }
         }
     </style>
 </head>
 <body>
-    <!-- タイトル画面 -->
     <div id="title-screen">
         <h1>漢字学習アプリ</h1>
         <button id="start-button">スタート</button>
     </div>
 
-    <!-- クイズ画面 -->
     <div id="quiz-screen">
         <h2>漢字の読み方クイズ</h2>
         <p>次の漢字の読みを入力してください: <strong id="quiz-kanji"></strong></p>
@@ -129,7 +131,6 @@
         <button id="submit-answer">答え合わせ</button>
     </div>
 
-    <!-- 中央フィードバック表示エリア -->
     <div id="center-feedback"></div>
 
     <script>
@@ -165,8 +166,7 @@
                 quizKanji.textContent = kanjiQuiz[currentIndex].kanji;
                 readingInput.value = '';
             } else {
-                centerFeedback.textContent = 'クイズ終了！お疲れ様でした！🎉';
-                centerFeedback.style.display = 'block';
+                showFeedback('クイズ終了！🎉', 'gold');
             }
         }
 
@@ -188,8 +188,10 @@
             centerFeedback.textContent = message;
             centerFeedback.style.color = color;
             centerFeedback.style.display = 'block';
+            centerFeedback.style.animation = 'explode 1.5s ease, shake 0.5s ease';
             setTimeout(() => {
                 centerFeedback.style.display = 'none';
+                centerFeedback.style.animation = '';
             }, 1500);
         }
 
