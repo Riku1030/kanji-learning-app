@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>学習履歴</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 0.5em;
+      text-align: left;
+    }
+    th {
+      background-color: #f3f3f3;
+    }
+    .retry-button {
+      padding: 4px 12px;
+      font-size: 0.9em;
+      background: #eee;
+      border: 1px solid #aaa;
+      cursor: pointer;
+    }
+    .pagination {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .pagination a, .pagination strong {
+      margin: 0 5px;
+      padding: 5px 10px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .pagination a {
+      background: #eee;
+      color: #000;
+    }
+    .pagination strong {
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container fade-in">
+    <h1>学習履歴</h1>
+
+    {% if history %}
+    <table>
+      <thead>
+        <tr>
+          <th>日時</th>
+          <th>問題</th>
+          <th>あなたの答え</th>
+          <th>正解</th>
+          <th>結果</th>
+          <th>再挑戦</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in history %}
+        <tr>
+          <td>{{ item.timestamp }}</td>
+          <td>{{ item.question|safe }}</td>
+          <td>{{ item.selected }}</td>
+          <td>{{ item.answer }}</td>
+          <td>
+            {% if item.is_correct %}
+              <span style="color: green;">◎</span>
+            {% else %}
+              <span style="color: red;">×</span>
+            {% endif %}
+          </td>
+          <td>
+            <form action="/retry/{{ item.id }}" method="get">
+              <button type="submit" class="retry-button">解き直す</button>
+            </form>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <!-- タイトルへ戻るボタン -->
+    <div style="text-align: center; margin: 20px 0;">
+      <a href="{{ url_for('index') }}" class="retry-button">タイトルへ戻る</a>
+    </div>
+
+    <!-- ページ番号とナビゲーション -->
+    <div class="pagination">
+      {% if page > 1 %}
+        <a href="{{ url_for('history', page=page-1) }}">← 前へ</a>
+      {% endif %}
+
+      {% for p in range(1, total_pages + 1) %}
+        {% if p == page %}
+          <strong>{{ p }}</strong>
+        {% else %}
+          <a href="{{ url_for('history', page=p) }}">{{ p }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if page < total_pages %}
+        <a href="{{ url_for('history', page=page+1) }}">次へ →</a>
+      {% endif %}
+    </div>
+
+    {% else %}
+      <p>まだ履歴がありません。</p>
+    {% endif %}
+  </div>
+</body>
+</html>

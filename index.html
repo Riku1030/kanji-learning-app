@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>JLPT漢字クイズ</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1 class="fade-in">JLPT漢字クイズ</h1>
+
+    <!-- レベル選択 -->
+    <form method="post" action="/" class="quiz-form">
+      <label class="option" style="display: block; margin-bottom: 20px; font-size: 1.2em;">
+        レベルを選択：
+        <select name="level" required style="font-size: 1em; padding: 0.4em; margin-top: 0.5em; border-radius: 6px;">
+          <option value="N5">N5</option>
+          <option value="N4">N4</option>
+          <option value="N3">N3</option>
+          <option value="N2">N2</option>
+          <option value="N1">N1</option>
+        </select>
+      </label>
+
+      <button type="submit" class="submit-button">スタート！</button>
+    </form>
+
+    <!-- 学習履歴へ -->
+    <form action="/history" method="get" style="margin-top: 2em; text-align: center;">
+      <button type="submit" class="submit-button">学習履歴</button>
+    </form>
+  </div>
+</body>
+</html>

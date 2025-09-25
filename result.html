@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>解答結果</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container fade-in">
+    <h1>解答結果</h1>
+
+    <!-- 問題と問題文を改行して明確に表示 -->
+    <p><strong>問題：</strong></p>
+    <div class="question-box">{{ question|safe }}</div>
+
+    <!-- 解答と正解の表示 -->
+    <p><strong>あなたの答え：</strong><span>{{ selected }}</span></p>
+    <p><strong>正解：</strong><span>{{ correct }}</span></p>
+
+    {% if selected == correct %}
+      <p class="correct">✅ 正解です！</p>
+    {% else %}
+      <p class="incorrect">❌ 不正解です</p>
+    {% endif %}
+
+    <!-- 解説ボックス -->
+    <div class="result-box">
+      <p><strong>解説：</strong>{{ explanation }}</p>
+    </div>
+
+    <!-- ナビゲーションボタン -->
+    <div style="display: flex; justify-content: center; gap: 1em; margin-top: 2em;">
+      <!-- もう一問解く -->
+      <form action="/" method="post">
+        <input type="hidden" name="level" value="n5">
+        <button type="submit" class="submit-button">もう一問解く</button>
+      </form>
+
+      <!-- タイトルへ戻る -->
+      <form action="/" method="get">
+        <button type="submit" class="submit-button">タイトルへ戻る</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

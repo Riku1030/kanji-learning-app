@@ -1,0 +1,956 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-06-03 11:35:48",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>部屋番号</span>をください。",
+    "options": [
+      "へやばんごう",
+      "へやばんごー",
+      "べやばんごう",
+      "べやばんごー"
+    ],
+    "selected": "へやばんごう",
+    "answer": "へやばんごう",
+    "explanation": "「部屋番号」は「へやばんごう」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-06-03 11:36:05",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>部屋番号</span>をください。",
+    "options": [
+      "へやばんごう",
+      "へやばんごー",
+      "べやばんごう",
+      "べやばんごー"
+    ],
+    "selected": "べやばんごー",
+    "answer": "へやばんごう",
+    "explanation": "「部屋番号」は「へやばんごう」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 3,
+    "timestamp": "2025-06-03 11:36:28",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>部屋番号</span>をください。",
+    "options": [
+      "へやばんごう",
+      "へやばんごー",
+      "べやばんごう",
+      "べやばんごー"
+    ],
+    "selected": "へやばんごー",
+    "answer": "へやばんごう",
+    "explanation": "「部屋番号」は「へやばんごう」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 4,
+    "timestamp": "2025-06-03 11:36:46",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>国籍</span>は なんでしょう？",
+    "options": [
+      "こくせき",
+      "こくしき",
+      "こぐき",
+      "くにせき"
+    ],
+    "selected": "こくしき",
+    "answer": "こくせき",
+    "explanation": "「国籍」は「こくせき」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 5,
+    "timestamp": "2025-06-03 13:39:03",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>部屋番号</span>をください。",
+    "options": [
+      "へやばんごう",
+      "へやばんごー",
+      "べやばんごう",
+      "べやばんごー"
+    ],
+    "selected": "へやばんごう",
+    "answer": "へやばんごう",
+    "explanation": "「部屋番号」は「へやばんごう」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 6,
+    "timestamp": "2025-06-03 13:39:13",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>国籍</span>は 何ですか？",
+    "options": [
+      "こくせき",
+      "くにねき",
+      "こにく",
+      "こくく"
+    ],
+    "selected": "こくせき",
+    "answer": "こくせき",
+    "explanation": "「国籍」は「こくせき」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 7,
+    "timestamp": "2025-06-03 13:39:20",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？ <span class='underline'>音楽</span> が 大好きです。",
+    "options": [
+      "おんがく",
+      "おとがく",
+      "おんがいく",
+      "おとがいく"
+    ],
+    "selected": "おんがく",
+    "answer": "おんがく",
+    "explanation": "「音楽」は「おんがく」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 8,
+    "timestamp": "2025-06-03 13:39:27",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>冷蔵庫</span>を あけてください。",
+    "options": [
+      "れいぞうこ",
+      "れいそうこ",
+      "れいぞこ",
+      "れいそこ"
+    ],
+    "selected": "れいぞうこ",
+    "answer": "れいぞうこ",
+    "explanation": "「冷蔵庫」は「れいぞうこ」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 9,
+    "timestamp": "2025-06-03 13:39:33",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>質問</span>ですか？",
+    "options": [
+      "しつもん",
+      "しつもく",
+      "しつもお",
+      "しつもん"
+    ],
+    "selected": "しつもお",
+    "answer": "しつもん",
+    "explanation": "「質問」は「しつもん」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 10,
+    "timestamp": "2025-06-03 13:39:52",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>部屋番号</span>をください。",
+    "options": [
+      "へやばんごう",
+      "へやばんごー",
+      "べやばんごう",
+      "べやばんごー"
+    ],
+    "selected": "べやばんごう",
+    "answer": "へやばんごう",
+    "explanation": "「部屋番号」は「へやばんごう」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 11,
+    "timestamp": "2025-06-03 13:40:04",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>美術館</span>に 行きましょう。",
+    "options": [
+      "びじゅつかん",
+      "びじつかん",
+      "びじゅつかん",
+      "びじつかん"
+    ],
+    "selected": "びじゅつかん",
+    "answer": "びじゅつかん",
+    "explanation": "「美術館」は「びじゅつかん」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 12,
+    "timestamp": "2025-06-03 14:54:18",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>机</span>があります。",
+    "options": [
+      "つくえ",
+      "きくえ",
+      "つくい",
+      "きくい"
+    ],
+    "selected": "きくい",
+    "answer": "つくえ",
+    "explanation": "「机」は「つくえ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 13,
+    "timestamp": "2025-06-03 15:28:49",
+    "question": "＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>昼ご飯</span>をたべます。",
+    "options": [
+      "ひるごはん",
+      "ひるこはん",
+      "ひるごはむ",
+      "ひるこはむ"
+    ],
+    "selected": "ひるこはむ",
+    "answer": "ひるごはん",
+    "explanation": "「昼ご飯」は「ひるごはん」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 14,
+    "timestamp": "2025-06-10 13:23:30",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>設問</span> を 調べましたか？",
+    "options": [
+      "せもん",
+      "せつもん",
+      "しつもん",
+      "しつもうん"
+    ],
+    "selected": "せつもん",
+    "answer": "しつもん",
+    "explanation": "「設問」は「しつもん」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 15,
+    "timestamp": "2025-06-10 13:23:41",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>使用料</span> は 月にいくらですか？",
+    "options": [
+      "しようりょう",
+      "しようりょ",
+      "しようりょく",
+      "しよりょう"
+    ],
+    "selected": "しようりょう",
+    "answer": "しようりょう",
+    "explanation": "「使用料」は「しようりょう」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 16,
+    "timestamp": "2025-06-10 13:34:13",
+    "level": "N4",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>通学</span> する時、何をしていますか？",
+    "options": [
+      "つうがく",
+      "とおがく",
+      "つうこう",
+      "とおこう"
+    ],
+    "selected": "つうがく",
+    "answer": "つうがく",
+    "explanation": "「通学」は「つうがく」とひらがなで書きます。",
+    "is_correct": true
+  },
+  {
+    "id": 17,
+    "timestamp": "2025-06-10 13:37:48",
+    "level": "N4",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>概要</span> を 教えていただけますか？",
+    "options": [
+      "がいよう",
+      "かくよう",
+      "がいよお",
+      "かくよお"
+    ],
+    "selected": "かくよお",
+    "answer": "がいよう",
+    "explanation": "「概要」は「がいよう」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 18,
+    "timestamp": "2025-06-10 13:37:55",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>病院</span> に 行きたいです。",
+    "options": [
+      "びょういん",
+      "びょおいん",
+      "びょいん",
+      "びょおいん"
+    ],
+    "selected": "びょいん",
+    "answer": "びょういん",
+    "explanation": "「病院」は「びょういん」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 19,
+    "timestamp": "2025-06-10 13:38:10",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>答案</span> を 書いてください。",
+    "options": [
+      "こたえん",
+      "こたん",
+      "こたえ",
+      "こてん"
+    ],
+    "selected": "こたえん",
+    "answer": "こたえ",
+    "explanation": "「答案」は「こたえ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 20,
+    "timestamp": "2025-06-10 14:02:27",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>答案</span> を 書いてください。",
+    "options": [
+      "こたえん",
+      "こたん",
+      "こたえ",
+      "こてん"
+    ],
+    "selected": "つくえ",
+    "answer": "こたえ",
+    "explanation": "「答案」は「こたえ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 21,
+    "timestamp": "2025-06-10 14:11:44",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>答案</span> を 書いてください。",
+    "options": [
+      "こたえん",
+      "こたん",
+      "こたえ",
+      "こてん"
+    ],
+    "selected": "ぶちょう",
+    "answer": "こたえ",
+    "explanation": "「答案」は「こたえ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 22,
+    "timestamp": "2025-06-10 14:13:32",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>答案</span> を 書いてください。",
+    "options": [
+      "こたえん",
+      "こたん",
+      "こたえ",
+      "こてん"
+    ],
+    "selected": "じてんしゃ",
+    "answer": "こたえ",
+    "explanation": "「答案」は「こたえ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 23,
+    "timestamp": "2025-06-10 14:14:57",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>答案</span> を 書いてください。",
+    "options": [
+      "こたえん",
+      "こたん",
+      "こたえ",
+      "こてん"
+    ],
+    "selected": "じてんしゃ",
+    "answer": "こたえ",
+    "explanation": "「答案」は「こたえ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 24,
+    "timestamp": "2025-06-10 14:15:11",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>答案</span> を 書いてください。",
+    "options": [
+      "こたえん",
+      "こたん",
+      "こたえ",
+      "こてん"
+    ],
+    "selected": "りょうり",
+    "answer": "こたえ",
+    "explanation": "「答案」は「こたえ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 25,
+    "timestamp": "2025-06-10 14:18:26",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>答案</span> を 書いてください。",
+    "options": [
+      "こたえん",
+      "こたん",
+      "こたえ",
+      "こてん"
+    ],
+    "selected": "おんがく",
+    "answer": "こたえ",
+    "explanation": "「答案」は「こたえ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 26,
+    "timestamp": "2025-06-10 14:18:34",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>駅員</span> に きいてみましょう。",
+    "options": [
+      "えきいん",
+      "えきにん",
+      "えきおん",
+      "えきうん"
+    ],
+    "selected": "えきにん",
+    "answer": "えきいん",
+    "explanation": "「駅員」は「えきいん」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 27,
+    "timestamp": "2025-06-10 14:18:43",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>自転車</span> に 乗ります。",
+    "options": [
+      "じでんしゃ",
+      "じてんしゃ",
+      "じどんしゃ",
+      "じてんしゃ"
+    ],
+    "selected": "じどんしゃ",
+    "answer": "じてんしゃ",
+    "explanation": "「自転車」は「じてんしゃ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 28,
+    "timestamp": "2025-06-10 14:18:53",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>自転車</span> に 乗ります。",
+    "options": [
+      "じでんしゃ",
+      "じてんしゃ",
+      "じどんしゃ",
+      "じてんしゃ"
+    ],
+    "selected": "かんじょう",
+    "answer": "じてんしゃ",
+    "explanation": "「自転車」は「じてんしゃ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 29,
+    "timestamp": "2025-06-10 14:19:34",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>先生</span> に きいてみましょう。",
+    "options": [
+      "せいせい",
+      "せんせい",
+      "させさし",
+      "さきしい"
+    ],
+    "selected": "さきしい",
+    "answer": "せんせい",
+    "explanation": "「先生」は「せんせい」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 30,
+    "timestamp": "2025-06-10 14:19:45",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>自転車</span> に てつだわれます。",
+    "options": [
+      "じてんしゃ",
+      "じでんしゃ",
+      "じてんしや",
+      "じてんや"
+    ],
+    "selected": "じてんしゃ",
+    "answer": "じてんしゃ",
+    "explanation": "「自転車」は「じてんしゃ」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 31,
+    "timestamp": "2025-06-10 14:19:54",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>自転車</span> に てつだわれます。",
+    "options": [
+      "じてんしゃ",
+      "じでんしゃ",
+      "じてんしや",
+      "じてんや"
+    ],
+    "selected": "としょかん",
+    "answer": "じてんしゃ",
+    "explanation": "「自転車」は「じてんしゃ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 32,
+    "timestamp": "2025-06-10 14:20:08",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>車庫</span> に 何が はいっていますか？",
+    "options": [
+      "くるまこ",
+      "しゃこ",
+      "くるまうり",
+      "しゃにん"
+    ],
+    "selected": "しゃこ",
+    "answer": "しゃこ",
+    "explanation": "「車庫」は「しゃこ」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 33,
+    "timestamp": "2025-06-10 14:20:17",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>両親</span> は 今日 やってきます。",
+    "options": [
+      "りょうしん",
+      "りょくしん",
+      "りょうじん",
+      "りょしん"
+    ],
+    "selected": "りょうしん",
+    "answer": "りょうしん",
+    "explanation": "「両親」は「りょうしん」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 34,
+    "timestamp": "2025-06-10 14:20:27",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>両親</span> は 今日 やってきます。",
+    "options": [
+      "りょうしん",
+      "りょくしん",
+      "りょうじん",
+      "りょしん"
+    ],
+    "selected": "よてい",
+    "answer": "りょうしん",
+    "explanation": "「両親」は「りょうしん」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 35,
+    "timestamp": "2025-06-10 14:25:21",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>両親</span> は 今日 やってきます。",
+    "options": [
+      "りょうしん",
+      "りょくしん",
+      "りょうじん",
+      "りょしん"
+    ],
+    "selected": "びょうき",
+    "answer": "りょうしん",
+    "explanation": "「両親」は「りょうしん」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 36,
+    "timestamp": "2025-06-10 14:26:11",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>両親</span> は 今日 やってきます。",
+    "options": [
+      "りょうしん",
+      "りょくしん",
+      "りょうじん",
+      "りょしん"
+    ],
+    "selected": "かばん",
+    "answer": "りょうしん",
+    "explanation": "「両親」は「りょうしん」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 37,
+    "timestamp": "2025-06-10 14:26:22",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>地図</span> を 見ましたか？",
+    "options": [
+      "ちず",
+      "つちず",
+      "じず",
+      "ちつ"
+    ],
+    "selected": "ちず",
+    "answer": "ちず",
+    "explanation": "「地図」は「ちず」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 38,
+    "timestamp": "2025-06-10 14:26:29",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>地図</span> を 見ましたか？",
+    "options": [
+      "ちず",
+      "つちず",
+      "じず",
+      "ちつ"
+    ],
+    "selected": "めいかく",
+    "answer": "ちず",
+    "explanation": "「地図」は「ちず」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 39,
+    "timestamp": "2025-06-10 14:51:39",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？ <span class='underline'>質問</span> を してもいいですか？",
+    "options": [
+      "しつもん",
+      "しつうん",
+      "しつもう",
+      "しつうもん"
+    ],
+    "selected": "しつもん",
+    "answer": "しつもん",
+    "explanation": "「質問」は「しつもん」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 40,
+    "timestamp": "2025-06-10 14:51:45",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>終了</span> したら、私に お知らせください。",
+    "options": [
+      "しゅうりょう",
+      "けつりょう",
+      "しゅうえ",
+      "けつえ"
+    ],
+    "selected": "けつえ",
+    "answer": "しゅうりょう",
+    "explanation": "「終了」は「しゅうりょう」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 41,
+    "timestamp": "2025-06-10 14:51:53",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>消える</span> 煙が 部屋いっぱいに広がっていた。",
+    "options": [
+      "きえる",
+      "けえる",
+      "しえる",
+      "こえる"
+    ],
+    "selected": "きえる",
+    "answer": "きえる",
+    "explanation": "「消える」は「きえる」とひらがなで書きます。",
+    "is_correct": true
+  },
+  {
+    "id": 42,
+    "timestamp": "2025-06-10 14:52:01",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>歴史</span> を 学ぶのは おもしろいです。",
+    "options": [
+      "れきし",
+      "れきしゃ",
+      "れくし",
+      "れっき"
+    ],
+    "selected": "れきし",
+    "answer": "れきし",
+    "explanation": "「歴史」は「れきし」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 43,
+    "timestamp": "2025-06-10 15:58:21",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>簡潔</span> な 説明をお願いします。",
+    "options": [
+      "かんけつ",
+      "かんけつけ",
+      "かんこつ",
+      "かんけっけ"
+    ],
+    "selected": "かんけつ",
+    "answer": "かんけつ",
+    "explanation": "「簡潔」は「かんけつ」とひらがなで書きます。",
+    "is_correct": true
+  },
+  {
+    "id": 44,
+    "timestamp": "2025-06-17 12:59:16",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>被害者</span> の ない 事件です。",
+    "options": [
+      "ひがいしゃ",
+      "ひがいじゃ",
+      "ひがいじゃ",
+      "ひがいしゃ"
+    ],
+    "selected": "ひがいじゃ",
+    "answer": "ひがいしゃ",
+    "explanation": "「被害者」は「ひがいしゃ」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 45,
+    "timestamp": "2025-06-17 13:01:37",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>友だち</span>と 遊びたいです。",
+    "options": [
+      "ともだち",
+      "とまだち",
+      "ともだし",
+      "ともだあ"
+    ],
+    "selected": "ともだち",
+    "answer": "ともだち",
+    "explanation": "「友達」は「ともだち」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 46,
+    "timestamp": "2025-06-17 13:36:08",
+    "level": "不明",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>誕生日</span> は ゆうびですね。",
+    "options": [
+      "たんじょうび",
+      "たんじょび",
+      "たんじょうびょう",
+      "たんじょおび"
+    ],
+    "selected": "でんち",
+    "answer": "たんじょうび",
+    "explanation": "「誕生日」は「たんじょうび」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 47,
+    "timestamp": "2025-06-30 21:45:23",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>趣味</span> は 何ですか？",
+    "options": [
+      "しゅみ",
+      "すみ",
+      "とくみ",
+      "つみ"
+    ],
+    "selected": "しゅみ",
+    "answer": "しゅみ",
+    "explanation": "「趣味」は「しゅみ」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 48,
+    "timestamp": "2025-07-01 14:59:59",
+    "level": "N2",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？ <span class='underline'>管理</span> を 覚えてください。",
+    "options": [
+      "かんり",
+      "かんに",
+      "かんぎ",
+      "かんぎる"
+    ],
+    "selected": "かんり",
+    "answer": "かんり",
+    "explanation": "「管理」は「かんり」とひらがなで書きます。",
+    "is_correct": true
+  },
+  {
+    "id": 49,
+    "timestamp": "2025-07-01 15:00:06",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>猫</span> は 屋根 の 上で 寝ていました。",
+    "options": [
+      "ねこ",
+      "ねっこ",
+      "にゃん",
+      "ねじ"
+    ],
+    "selected": "ねこ",
+    "answer": "ねこ",
+    "explanation": "「猫」は「ねこ」とひらがなで書きます。",
+    "is_correct": true
+  },
+  {
+    "id": 50,
+    "timestamp": "2025-07-01 15:00:15",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>支払い</span> は終わりましたか？",
+    "options": [
+      "しはらい",
+      "しはろい",
+      "しはらえ",
+      "しはらいえ"
+    ],
+    "selected": "しはらい",
+    "answer": "しはらい",
+    "explanation": "「支払い」は「しはらい」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 51,
+    "timestamp": "2025-07-01 15:00:23",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>中学生</span>たちは 大会で 優勝しました。",
+    "options": [
+      "ちゅうがくせい",
+      "なかがくせい",
+      "ちゅうがっせい",
+      "なかがっせい"
+    ],
+    "selected": "なかがっせい",
+    "answer": "ちゅうがくせい",
+    "explanation": "「中学生」は「ちゅうがくせい」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 52,
+    "timestamp": "2025-07-01 15:30:42",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？\n<span class='underline'>図書館</span> は どこですか？",
+    "options": [
+      "としょかん",
+      "びょういん",
+      "かせんしつ",
+      "ばんごう"
+    ],
+    "selected": "なかがっせい",
+    "answer": "としょかん",
+    "explanation": "「図書館」は「としょかん」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 53,
+    "timestamp": "2025-07-01 15:30:55",
+    "level": "N2",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>味噌汁</span> が 好きです。",
+    "options": [
+      "みそしる",
+      "あじみしる",
+      "あじみじる",
+      "みそじる"
+    ],
+    "selected": "みそしる",
+    "answer": "みそしる",
+    "explanation": "「味噌汁」は「みそしる」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 54,
+    "timestamp": "2025-07-01 15:31:04",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>昨日</span> は どうでしたか？",
+    "options": [
+      "さくじつ",
+      "きのう",
+      "おととい",
+      "きたく"
+    ],
+    "selected": "きのう",
+    "answer": "きのう",
+    "explanation": "「昨日」は「きのう」とひらがなで書きます。",
+    "is_correct": true
+  },
+  {
+    "id": 55,
+    "timestamp": "2025-07-01 15:31:25",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>研究</span>所の 人々は とても 働き者です。",
+    "options": [
+      "けんきゅう",
+      "こうさく",
+      "けいざい",
+      "ひつよう"
+    ],
+    "selected": "けんきゅう",
+    "answer": "けんきゅう",
+    "explanation": "「研究」は「けんきゅう」とひらがなで書きます。",
+    "is_correct": true
+  },
+  {
+    "id": 56,
+    "timestamp": "2025-07-15 12:34:45",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>謝る</span> の 意味を 知っていますか？",
+    "options": [
+      "あやる",
+      "しゃる",
+      "さる",
+      "あやぐ"
+    ],
+    "selected": "あやる",
+    "answer": "あやる",
+    "explanation": "「謝る」は「あやる」とひらがなで書きます。",
+    "is_correct": true
+  },
+  {
+    "id": 57,
+    "timestamp": "2025-07-15 12:34:56",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>教室</span> の 授業は 何時に 始まりますか？",
+    "options": [
+      "きょしつ",
+      "きょうしつ",
+      "きょうしっ",
+      "きょしゅ"
+    ],
+    "selected": "きょうしつ",
+    "answer": "きょうしつ",
+    "explanation": "「教室」は「きょうしつ」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 58,
+    "timestamp": "2025-07-15 12:35:53",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>自転車</span> で 学校に 行きます。",
+    "options": [
+      "じてんしゃ",
+      "じてんちゃ",
+      "じでんしゃ",
+      "じでんちゃ"
+    ],
+    "selected": "じてんしゃ",
+    "answer": "じてんしゃ",
+    "explanation": "「自転車」は「じてんしゃ」と読みます。",
+    "is_correct": true
+  },
+  {
+    "id": 59,
+    "timestamp": "2025-07-15 12:36:51",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>音楽</span> が 好きです。",
+    "options": [
+      "おんがく",
+      "おとがく",
+      "おんぎょく",
+      "おとぎょく"
+    ],
+    "selected": "おとがく",
+    "answer": "おんがく",
+    "explanation": "「音楽」は「おんがく」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 60,
+    "timestamp": "2025-07-15 12:37:22",
+    "level": "n5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>出発時刻</span> は 何時ですか？",
+    "options": [
+      "しゅっぱつじこく",
+      "でぱーとじこく",
+      "しゅうぱつじこく",
+      "ではつじこく"
+    ],
+    "selected": "おとがく",
+    "answer": "しゅっぱつじこく",
+    "explanation": "「出発時刻」は「しゅっぱつじこく」と読みます。",
+    "is_correct": false
+  },
+  {
+    "id": 61,
+    "timestamp": "2025-07-15 12:51:48",
+    "level": "N5",
+    "question": "問題：＿＿の ことばは ひらがなで どう かきますか？<span class='underline'>電気代</span> が 高いです。",
+    "options": [
+      "でんきだい",
+      "でんぎだい",
+      "でんぎや",
+      "でんきや"
+    ],
+    "selected": "でんきだい",
+    "answer": "でんきだい",
+    "explanation": "「電気代」は「でんきだい」と読みます。",
+    "is_correct": true
+  }
+]

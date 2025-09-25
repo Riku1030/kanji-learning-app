@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>漢字クイズ</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+
+    <!-- ✅ ここで question 全体を表示してOK -->
+    <div class="question-box">{{ question|safe }}</div>
+
+    <form method="post" action="/answer" class="quiz-form">
+      {% for opt in options %}
+        <label class="option">
+          <input type="radio" name="selected_option" value="{{ opt }}" required>
+          <span>{{ opt }}</span>
+        </label>
+      {% endfor %}
+      <button type="submit" class="submit-button">解答する</button>
+    </form>
+  </div>
+</body>
+</html>
